@@ -458,13 +458,13 @@ SELECT pk FROM tab0 WHERE ((((col4 > 698.8))) OR col0 <= 862 OR (col3 >= 952))
 92 values hashing to b1e745ce60cff4983836592609391463
 
 statement ok
-DROP VIEW view_1_tab0_870
+DROP VIEW IF EXISTS view_1_tab0_870 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_870
+DROP VIEW IF EXISTS view_2_tab0_870 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_870
+DROP VIEW IF EXISTS view_3_tab0_870 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -555,13 +555,13 @@ SELECT pk FROM tab1 WHERE ((((col4 > 698.8))) OR col0 <= 862 OR (col3 >= 952))
 92 values hashing to b1e745ce60cff4983836592609391463
 
 statement ok
-DROP VIEW view_1_tab1_870
+DROP VIEW IF EXISTS view_1_tab1_870 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_870
+DROP VIEW IF EXISTS view_2_tab1_870 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_870
+DROP VIEW IF EXISTS view_3_tab1_870 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -652,13 +652,13 @@ SELECT pk FROM tab2 WHERE ((((col4 > 698.8))) OR col0 <= 862 OR (col3 >= 952))
 92 values hashing to b1e745ce60cff4983836592609391463
 
 statement ok
-DROP VIEW view_1_tab2_870
+DROP VIEW IF EXISTS view_1_tab2_870 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_870
+DROP VIEW IF EXISTS view_2_tab2_870 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_870
+DROP VIEW IF EXISTS view_3_tab2_870 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -749,13 +749,13 @@ SELECT pk FROM tab3 WHERE ((((col4 > 698.8))) OR col0 <= 862 OR (col3 >= 952))
 92 values hashing to b1e745ce60cff4983836592609391463
 
 statement ok
-DROP VIEW view_1_tab3_870
+DROP VIEW IF EXISTS view_1_tab3_870 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_870
+DROP VIEW IF EXISTS view_2_tab3_870 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_870
+DROP VIEW IF EXISTS view_3_tab3_870 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -846,13 +846,13 @@ SELECT pk FROM tab4 WHERE ((((col4 > 698.8))) OR col0 <= 862 OR (col3 >= 952))
 92 values hashing to b1e745ce60cff4983836592609391463
 
 statement ok
-DROP VIEW view_1_tab4_870
+DROP VIEW IF EXISTS view_1_tab4_870 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_870
+DROP VIEW IF EXISTS view_2_tab4_870 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_870
+DROP VIEW IF EXISTS view_3_tab4_870 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -943,13 +943,13 @@ SELECT pk FROM tab0 WHERE (col3 > 439) AND col3 > 529
 46 values hashing to f238b5cb38f326d95a9b3df92c1be7ed
 
 statement ok
-DROP VIEW view_1_tab0_871
+DROP VIEW IF EXISTS view_1_tab0_871 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_871
+DROP VIEW IF EXISTS view_2_tab0_871 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_871
+DROP VIEW IF EXISTS view_3_tab0_871 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -1040,13 +1040,13 @@ SELECT pk FROM tab1 WHERE (col3 > 439) AND col3 > 529
 46 values hashing to f238b5cb38f326d95a9b3df92c1be7ed
 
 statement ok
-DROP VIEW view_1_tab1_871
+DROP VIEW IF EXISTS view_1_tab1_871 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_871
+DROP VIEW IF EXISTS view_2_tab1_871 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_871
+DROP VIEW IF EXISTS view_3_tab1_871 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -1137,13 +1137,13 @@ SELECT pk FROM tab2 WHERE (col3 > 439) AND col3 > 529
 46 values hashing to f238b5cb38f326d95a9b3df92c1be7ed
 
 statement ok
-DROP VIEW view_1_tab2_871
+DROP VIEW IF EXISTS view_1_tab2_871 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_871
+DROP VIEW IF EXISTS view_2_tab2_871 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_871
+DROP VIEW IF EXISTS view_3_tab2_871 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -1234,13 +1234,13 @@ SELECT pk FROM tab3 WHERE (col3 > 439) AND col3 > 529
 46 values hashing to f238b5cb38f326d95a9b3df92c1be7ed
 
 statement ok
-DROP VIEW view_1_tab3_871
+DROP VIEW IF EXISTS view_1_tab3_871 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_871
+DROP VIEW IF EXISTS view_2_tab3_871 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_871
+DROP VIEW IF EXISTS view_3_tab3_871 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -1331,13 +1331,13 @@ SELECT pk FROM tab4 WHERE (col3 > 439) AND col3 > 529
 46 values hashing to f238b5cb38f326d95a9b3df92c1be7ed
 
 statement ok
-DROP VIEW view_1_tab4_871
+DROP VIEW IF EXISTS view_1_tab4_871 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_871
+DROP VIEW IF EXISTS view_2_tab4_871 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_871
+DROP VIEW IF EXISTS view_3_tab4_871 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -1428,13 +1428,13 @@ SELECT pk FROM tab0 WHERE col3 <= 588 OR (col1 <= 3.89)
 60 values hashing to 7d59b308c9f4e377f6369e4144bd24d2
 
 statement ok
-DROP VIEW view_1_tab0_872
+DROP VIEW IF EXISTS view_1_tab0_872 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_872
+DROP VIEW IF EXISTS view_2_tab0_872 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_872
+DROP VIEW IF EXISTS view_3_tab0_872 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -1525,13 +1525,13 @@ SELECT pk FROM tab1 WHERE col3 <= 588 OR (col1 <= 3.89)
 60 values hashing to 7d59b308c9f4e377f6369e4144bd24d2
 
 statement ok
-DROP VIEW view_1_tab1_872
+DROP VIEW IF EXISTS view_1_tab1_872 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_872
+DROP VIEW IF EXISTS view_2_tab1_872 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_872
+DROP VIEW IF EXISTS view_3_tab1_872 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -1622,13 +1622,13 @@ SELECT pk FROM tab2 WHERE col3 <= 588 OR (col1 <= 3.89)
 60 values hashing to 7d59b308c9f4e377f6369e4144bd24d2
 
 statement ok
-DROP VIEW view_1_tab2_872
+DROP VIEW IF EXISTS view_1_tab2_872 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_872
+DROP VIEW IF EXISTS view_2_tab2_872 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_872
+DROP VIEW IF EXISTS view_3_tab2_872 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -1719,13 +1719,13 @@ SELECT pk FROM tab3 WHERE col3 <= 588 OR (col1 <= 3.89)
 60 values hashing to 7d59b308c9f4e377f6369e4144bd24d2
 
 statement ok
-DROP VIEW view_1_tab3_872
+DROP VIEW IF EXISTS view_1_tab3_872 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_872
+DROP VIEW IF EXISTS view_2_tab3_872 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_872
+DROP VIEW IF EXISTS view_3_tab3_872 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -1816,13 +1816,13 @@ SELECT pk FROM tab4 WHERE col3 <= 588 OR (col1 <= 3.89)
 60 values hashing to 7d59b308c9f4e377f6369e4144bd24d2
 
 statement ok
-DROP VIEW view_1_tab4_872
+DROP VIEW IF EXISTS view_1_tab4_872 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_872
+DROP VIEW IF EXISTS view_2_tab4_872 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_872
+DROP VIEW IF EXISTS view_3_tab4_872 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -1913,13 +1913,13 @@ SELECT pk FROM tab0 WHERE col0 > 649
 40 values hashing to 9c8b56e8c08fb7a96735dc48f20e81f8
 
 statement ok
-DROP VIEW view_1_tab0_873
+DROP VIEW IF EXISTS view_1_tab0_873 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_873
+DROP VIEW IF EXISTS view_2_tab0_873 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_873
+DROP VIEW IF EXISTS view_3_tab0_873 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -2010,13 +2010,13 @@ SELECT pk FROM tab1 WHERE col0 > 649
 40 values hashing to 9c8b56e8c08fb7a96735dc48f20e81f8
 
 statement ok
-DROP VIEW view_1_tab1_873
+DROP VIEW IF EXISTS view_1_tab1_873 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_873
+DROP VIEW IF EXISTS view_2_tab1_873 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_873
+DROP VIEW IF EXISTS view_3_tab1_873 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -2107,13 +2107,13 @@ SELECT pk FROM tab2 WHERE col0 > 649
 40 values hashing to 9c8b56e8c08fb7a96735dc48f20e81f8
 
 statement ok
-DROP VIEW view_1_tab2_873
+DROP VIEW IF EXISTS view_1_tab2_873 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_873
+DROP VIEW IF EXISTS view_2_tab2_873 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_873
+DROP VIEW IF EXISTS view_3_tab2_873 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -2204,13 +2204,13 @@ SELECT pk FROM tab3 WHERE col0 > 649
 40 values hashing to 9c8b56e8c08fb7a96735dc48f20e81f8
 
 statement ok
-DROP VIEW view_1_tab3_873
+DROP VIEW IF EXISTS view_1_tab3_873 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_873
+DROP VIEW IF EXISTS view_2_tab3_873 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_873
+DROP VIEW IF EXISTS view_3_tab3_873 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -2301,13 +2301,13 @@ SELECT pk FROM tab4 WHERE col0 > 649
 40 values hashing to 9c8b56e8c08fb7a96735dc48f20e81f8
 
 statement ok
-DROP VIEW view_1_tab4_873
+DROP VIEW IF EXISTS view_1_tab4_873 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_873
+DROP VIEW IF EXISTS view_2_tab4_873 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_873
+DROP VIEW IF EXISTS view_3_tab4_873 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -2398,13 +2398,13 @@ SELECT pk FROM tab0 WHERE col0 > 528
 54 values hashing to 3a65448d8469474da37dd9c8f4b02879
 
 statement ok
-DROP VIEW view_1_tab0_874
+DROP VIEW IF EXISTS view_1_tab0_874 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_874
+DROP VIEW IF EXISTS view_2_tab0_874 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_874
+DROP VIEW IF EXISTS view_3_tab0_874 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -2495,13 +2495,13 @@ SELECT pk FROM tab1 WHERE col0 > 528
 54 values hashing to 3a65448d8469474da37dd9c8f4b02879
 
 statement ok
-DROP VIEW view_1_tab1_874
+DROP VIEW IF EXISTS view_1_tab1_874 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_874
+DROP VIEW IF EXISTS view_2_tab1_874 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_874
+DROP VIEW IF EXISTS view_3_tab1_874 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -2592,13 +2592,13 @@ SELECT pk FROM tab2 WHERE col0 > 528
 54 values hashing to 3a65448d8469474da37dd9c8f4b02879
 
 statement ok
-DROP VIEW view_1_tab2_874
+DROP VIEW IF EXISTS view_1_tab2_874 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_874
+DROP VIEW IF EXISTS view_2_tab2_874 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_874
+DROP VIEW IF EXISTS view_3_tab2_874 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -2689,13 +2689,13 @@ SELECT pk FROM tab3 WHERE col0 > 528
 54 values hashing to 3a65448d8469474da37dd9c8f4b02879
 
 statement ok
-DROP VIEW view_1_tab3_874
+DROP VIEW IF EXISTS view_1_tab3_874 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_874
+DROP VIEW IF EXISTS view_2_tab3_874 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_874
+DROP VIEW IF EXISTS view_3_tab3_874 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -2786,13 +2786,13 @@ SELECT pk FROM tab4 WHERE col0 > 528
 54 values hashing to 3a65448d8469474da37dd9c8f4b02879
 
 statement ok
-DROP VIEW view_1_tab4_874
+DROP VIEW IF EXISTS view_1_tab4_874 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_874
+DROP VIEW IF EXISTS view_2_tab4_874 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_874
+DROP VIEW IF EXISTS view_3_tab4_874 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -2883,13 +2883,13 @@ SELECT pk FROM tab0 WHERE col4 < 247.66 OR col4 IS NULL
 31 values hashing to 8c154aaa2025133fa0c050e832ccc9e1
 
 statement ok
-DROP VIEW view_1_tab0_875
+DROP VIEW IF EXISTS view_1_tab0_875 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_875
+DROP VIEW IF EXISTS view_2_tab0_875 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_875
+DROP VIEW IF EXISTS view_3_tab0_875 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -2980,13 +2980,13 @@ SELECT pk FROM tab1 WHERE col4 < 247.66 OR col4 IS NULL
 31 values hashing to 8c154aaa2025133fa0c050e832ccc9e1
 
 statement ok
-DROP VIEW view_1_tab1_875
+DROP VIEW IF EXISTS view_1_tab1_875 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_875
+DROP VIEW IF EXISTS view_2_tab1_875 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_875
+DROP VIEW IF EXISTS view_3_tab1_875 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -3077,13 +3077,13 @@ SELECT pk FROM tab2 WHERE col4 < 247.66 OR col4 IS NULL
 31 values hashing to 8c154aaa2025133fa0c050e832ccc9e1
 
 statement ok
-DROP VIEW view_1_tab2_875
+DROP VIEW IF EXISTS view_1_tab2_875 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_875
+DROP VIEW IF EXISTS view_2_tab2_875 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_875
+DROP VIEW IF EXISTS view_3_tab2_875 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -3174,13 +3174,13 @@ SELECT pk FROM tab3 WHERE col4 < 247.66 OR col4 IS NULL
 31 values hashing to 8c154aaa2025133fa0c050e832ccc9e1
 
 statement ok
-DROP VIEW view_1_tab3_875
+DROP VIEW IF EXISTS view_1_tab3_875 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_875
+DROP VIEW IF EXISTS view_2_tab3_875 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_875
+DROP VIEW IF EXISTS view_3_tab3_875 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -3271,13 +3271,13 @@ SELECT pk FROM tab4 WHERE col4 < 247.66 OR col4 IS NULL
 31 values hashing to 8c154aaa2025133fa0c050e832ccc9e1
 
 statement ok
-DROP VIEW view_1_tab4_875
+DROP VIEW IF EXISTS view_1_tab4_875 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_875
+DROP VIEW IF EXISTS view_2_tab4_875 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_875
+DROP VIEW IF EXISTS view_3_tab4_875 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -3386,13 +3386,13 @@ SELECT pk FROM tab0 WHERE ((((col0 > 796))) AND col4 < 334.48)
 75
 
 statement ok
-DROP VIEW view_1_tab0_876
+DROP VIEW IF EXISTS view_1_tab0_876 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_876
+DROP VIEW IF EXISTS view_2_tab0_876 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_876
+DROP VIEW IF EXISTS view_3_tab0_876 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -3501,13 +3501,13 @@ SELECT pk FROM tab1 WHERE ((((col0 > 796))) AND col4 < 334.48)
 75
 
 statement ok
-DROP VIEW view_1_tab1_876
+DROP VIEW IF EXISTS view_1_tab1_876 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_876
+DROP VIEW IF EXISTS view_2_tab1_876 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_876
+DROP VIEW IF EXISTS view_3_tab1_876 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -3616,13 +3616,13 @@ SELECT pk FROM tab2 WHERE ((((col0 > 796))) AND col4 < 334.48)
 75
 
 statement ok
-DROP VIEW view_1_tab2_876
+DROP VIEW IF EXISTS view_1_tab2_876 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_876
+DROP VIEW IF EXISTS view_2_tab2_876 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_876
+DROP VIEW IF EXISTS view_3_tab2_876 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -3731,13 +3731,13 @@ SELECT pk FROM tab3 WHERE ((((col0 > 796))) AND col4 < 334.48)
 75
 
 statement ok
-DROP VIEW view_1_tab3_876
+DROP VIEW IF EXISTS view_1_tab3_876 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_876
+DROP VIEW IF EXISTS view_2_tab3_876 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_876
+DROP VIEW IF EXISTS view_3_tab3_876 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -3846,13 +3846,13 @@ SELECT pk FROM tab4 WHERE ((((col0 > 796))) AND col4 < 334.48)
 75
 
 statement ok
-DROP VIEW view_1_tab4_876
+DROP VIEW IF EXISTS view_1_tab4_876 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_876
+DROP VIEW IF EXISTS view_2_tab4_876 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_876
+DROP VIEW IF EXISTS view_3_tab4_876 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -3938,13 +3938,13 @@ SELECT pk FROM tab0 WHERE ((col4 = 82.92) AND (col4 > 233.70 AND col1 > 258.21) 
 ----
 
 statement ok
-DROP VIEW view_1_tab0_877
+DROP VIEW IF EXISTS view_1_tab0_877 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_877
+DROP VIEW IF EXISTS view_2_tab0_877 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_877
+DROP VIEW IF EXISTS view_3_tab0_877 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -4030,13 +4030,13 @@ SELECT pk FROM tab1 WHERE ((col4 = 82.92) AND (col4 > 233.70 AND col1 > 258.21) 
 ----
 
 statement ok
-DROP VIEW view_1_tab1_877
+DROP VIEW IF EXISTS view_1_tab1_877 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_877
+DROP VIEW IF EXISTS view_2_tab1_877 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_877
+DROP VIEW IF EXISTS view_3_tab1_877 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -4122,13 +4122,13 @@ SELECT pk FROM tab2 WHERE ((col4 = 82.92) AND (col4 > 233.70 AND col1 > 258.21) 
 ----
 
 statement ok
-DROP VIEW view_1_tab2_877
+DROP VIEW IF EXISTS view_1_tab2_877 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_877
+DROP VIEW IF EXISTS view_2_tab2_877 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_877
+DROP VIEW IF EXISTS view_3_tab2_877 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -4214,13 +4214,13 @@ SELECT pk FROM tab3 WHERE ((col4 = 82.92) AND (col4 > 233.70 AND col1 > 258.21) 
 ----
 
 statement ok
-DROP VIEW view_1_tab3_877
+DROP VIEW IF EXISTS view_1_tab3_877 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_877
+DROP VIEW IF EXISTS view_2_tab3_877 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_877
+DROP VIEW IF EXISTS view_3_tab3_877 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -4306,13 +4306,13 @@ SELECT pk FROM tab4 WHERE ((col4 = 82.92) AND (col4 > 233.70 AND col1 > 258.21) 
 ----
 
 statement ok
-DROP VIEW view_1_tab4_877
+DROP VIEW IF EXISTS view_1_tab4_877 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_877
+DROP VIEW IF EXISTS view_2_tab4_877 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_877
+DROP VIEW IF EXISTS view_3_tab4_877 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -4426,13 +4426,13 @@ SELECT pk FROM tab0 WHERE col1 <= 33.2
 51
 
 statement ok
-DROP VIEW view_1_tab0_879
+DROP VIEW IF EXISTS view_1_tab0_879 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_879
+DROP VIEW IF EXISTS view_2_tab0_879 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_879
+DROP VIEW IF EXISTS view_3_tab0_879 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -4546,13 +4546,13 @@ SELECT pk FROM tab1 WHERE col1 <= 33.2
 51
 
 statement ok
-DROP VIEW view_1_tab1_879
+DROP VIEW IF EXISTS view_1_tab1_879 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_879
+DROP VIEW IF EXISTS view_2_tab1_879 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_879
+DROP VIEW IF EXISTS view_3_tab1_879 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -4666,13 +4666,13 @@ SELECT pk FROM tab2 WHERE col1 <= 33.2
 51
 
 statement ok
-DROP VIEW view_1_tab2_879
+DROP VIEW IF EXISTS view_1_tab2_879 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_879
+DROP VIEW IF EXISTS view_2_tab2_879 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_879
+DROP VIEW IF EXISTS view_3_tab2_879 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -4786,13 +4786,13 @@ SELECT pk FROM tab3 WHERE col1 <= 33.2
 51
 
 statement ok
-DROP VIEW view_1_tab3_879
+DROP VIEW IF EXISTS view_1_tab3_879 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_879
+DROP VIEW IF EXISTS view_2_tab3_879 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_879
+DROP VIEW IF EXISTS view_3_tab3_879 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -4906,13 +4906,13 @@ SELECT pk FROM tab4 WHERE col1 <= 33.2
 51
 
 statement ok
-DROP VIEW view_1_tab4_879
+DROP VIEW IF EXISTS view_1_tab4_879 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_879
+DROP VIEW IF EXISTS view_2_tab4_879 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_879
+DROP VIEW IF EXISTS view_3_tab4_879 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -4998,13 +4998,13 @@ SELECT pk FROM tab0 WHERE col3 = 962
 ----
 
 statement ok
-DROP VIEW view_1_tab0_880
+DROP VIEW IF EXISTS view_1_tab0_880 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_880
+DROP VIEW IF EXISTS view_2_tab0_880 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_880
+DROP VIEW IF EXISTS view_3_tab0_880 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -5090,13 +5090,13 @@ SELECT pk FROM tab1 WHERE col3 = 962
 ----
 
 statement ok
-DROP VIEW view_1_tab1_880
+DROP VIEW IF EXISTS view_1_tab1_880 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_880
+DROP VIEW IF EXISTS view_2_tab1_880 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_880
+DROP VIEW IF EXISTS view_3_tab1_880 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -5182,13 +5182,13 @@ SELECT pk FROM tab2 WHERE col3 = 962
 ----
 
 statement ok
-DROP VIEW view_1_tab2_880
+DROP VIEW IF EXISTS view_1_tab2_880 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_880
+DROP VIEW IF EXISTS view_2_tab2_880 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_880
+DROP VIEW IF EXISTS view_3_tab2_880 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -5274,13 +5274,13 @@ SELECT pk FROM tab3 WHERE col3 = 962
 ----
 
 statement ok
-DROP VIEW view_1_tab3_880
+DROP VIEW IF EXISTS view_1_tab3_880 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_880
+DROP VIEW IF EXISTS view_2_tab3_880 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_880
+DROP VIEW IF EXISTS view_3_tab3_880 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -5366,13 +5366,13 @@ SELECT pk FROM tab4 WHERE col3 = 962
 ----
 
 statement ok
-DROP VIEW view_1_tab4_880
+DROP VIEW IF EXISTS view_1_tab4_880 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_880
+DROP VIEW IF EXISTS view_2_tab4_880 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_880
+DROP VIEW IF EXISTS view_3_tab4_880 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -5463,13 +5463,13 @@ SELECT pk FROM tab0 WHERE col3 > 987 OR col3 < 249
 28 values hashing to 09592e6e8a16e1deb4b110b6908e98e5
 
 statement ok
-DROP VIEW view_1_tab0_881
+DROP VIEW IF EXISTS view_1_tab0_881 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_881
+DROP VIEW IF EXISTS view_2_tab0_881 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_881
+DROP VIEW IF EXISTS view_3_tab0_881 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -5560,13 +5560,13 @@ SELECT pk FROM tab1 WHERE col3 > 987 OR col3 < 249
 28 values hashing to 09592e6e8a16e1deb4b110b6908e98e5
 
 statement ok
-DROP VIEW view_1_tab1_881
+DROP VIEW IF EXISTS view_1_tab1_881 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_881
+DROP VIEW IF EXISTS view_2_tab1_881 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_881
+DROP VIEW IF EXISTS view_3_tab1_881 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -5657,13 +5657,13 @@ SELECT pk FROM tab2 WHERE col3 > 987 OR col3 < 249
 28 values hashing to 09592e6e8a16e1deb4b110b6908e98e5
 
 statement ok
-DROP VIEW view_1_tab2_881
+DROP VIEW IF EXISTS view_1_tab2_881 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_881
+DROP VIEW IF EXISTS view_2_tab2_881 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_881
+DROP VIEW IF EXISTS view_3_tab2_881 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -5754,13 +5754,13 @@ SELECT pk FROM tab3 WHERE col3 > 987 OR col3 < 249
 28 values hashing to 09592e6e8a16e1deb4b110b6908e98e5
 
 statement ok
-DROP VIEW view_1_tab3_881
+DROP VIEW IF EXISTS view_1_tab3_881 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_881
+DROP VIEW IF EXISTS view_2_tab3_881 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_881
+DROP VIEW IF EXISTS view_3_tab3_881 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -5851,13 +5851,13 @@ SELECT pk FROM tab4 WHERE col3 > 987 OR col3 < 249
 28 values hashing to 09592e6e8a16e1deb4b110b6908e98e5
 
 statement ok
-DROP VIEW view_1_tab4_881
+DROP VIEW IF EXISTS view_1_tab4_881 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_881
+DROP VIEW IF EXISTS view_2_tab4_881 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_881
+DROP VIEW IF EXISTS view_3_tab4_881 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -5943,13 +5943,13 @@ SELECT pk FROM tab0 WHERE col3 IN (756,339,745,487)
 ----
 
 statement ok
-DROP VIEW view_1_tab0_882
+DROP VIEW IF EXISTS view_1_tab0_882 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_882
+DROP VIEW IF EXISTS view_2_tab0_882 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_882
+DROP VIEW IF EXISTS view_3_tab0_882 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -6035,13 +6035,13 @@ SELECT pk FROM tab1 WHERE col3 IN (756,339,745,487)
 ----
 
 statement ok
-DROP VIEW view_1_tab1_882
+DROP VIEW IF EXISTS view_1_tab1_882 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_882
+DROP VIEW IF EXISTS view_2_tab1_882 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_882
+DROP VIEW IF EXISTS view_3_tab1_882 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -6127,13 +6127,13 @@ SELECT pk FROM tab2 WHERE col3 IN (756,339,745,487)
 ----
 
 statement ok
-DROP VIEW view_1_tab2_882
+DROP VIEW IF EXISTS view_1_tab2_882 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_882
+DROP VIEW IF EXISTS view_2_tab2_882 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_882
+DROP VIEW IF EXISTS view_3_tab2_882 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -6219,13 +6219,13 @@ SELECT pk FROM tab3 WHERE col3 IN (756,339,745,487)
 ----
 
 statement ok
-DROP VIEW view_1_tab3_882
+DROP VIEW IF EXISTS view_1_tab3_882 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_882
+DROP VIEW IF EXISTS view_2_tab3_882 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_882
+DROP VIEW IF EXISTS view_3_tab3_882 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -6311,13 +6311,13 @@ SELECT pk FROM tab4 WHERE col3 IN (756,339,745,487)
 ----
 
 statement ok
-DROP VIEW view_1_tab4_882
+DROP VIEW IF EXISTS view_1_tab4_882 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_882
+DROP VIEW IF EXISTS view_2_tab4_882 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_882
+DROP VIEW IF EXISTS view_3_tab4_882 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -6403,13 +6403,13 @@ SELECT pk FROM tab0 WHERE col4 = 31.39
 ----
 
 statement ok
-DROP VIEW view_1_tab0_883
+DROP VIEW IF EXISTS view_1_tab0_883 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_883
+DROP VIEW IF EXISTS view_2_tab0_883 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_883
+DROP VIEW IF EXISTS view_3_tab0_883 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -6495,13 +6495,13 @@ SELECT pk FROM tab1 WHERE col4 = 31.39
 ----
 
 statement ok
-DROP VIEW view_1_tab1_883
+DROP VIEW IF EXISTS view_1_tab1_883 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_883
+DROP VIEW IF EXISTS view_2_tab1_883 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_883
+DROP VIEW IF EXISTS view_3_tab1_883 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -6587,13 +6587,13 @@ SELECT pk FROM tab2 WHERE col4 = 31.39
 ----
 
 statement ok
-DROP VIEW view_1_tab2_883
+DROP VIEW IF EXISTS view_1_tab2_883 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_883
+DROP VIEW IF EXISTS view_2_tab2_883 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_883
+DROP VIEW IF EXISTS view_3_tab2_883 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -6679,13 +6679,13 @@ SELECT pk FROM tab3 WHERE col4 = 31.39
 ----
 
 statement ok
-DROP VIEW view_1_tab3_883
+DROP VIEW IF EXISTS view_1_tab3_883 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_883
+DROP VIEW IF EXISTS view_2_tab3_883 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_883
+DROP VIEW IF EXISTS view_3_tab3_883 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -6771,13 +6771,13 @@ SELECT pk FROM tab4 WHERE col4 = 31.39
 ----
 
 statement ok
-DROP VIEW view_1_tab4_883
+DROP VIEW IF EXISTS view_1_tab4_883 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_883
+DROP VIEW IF EXISTS view_2_tab4_883 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_883
+DROP VIEW IF EXISTS view_3_tab4_883 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -6866,13 +6866,13 @@ SELECT pk FROM tab0 WHERE ((col1 <= 723.96)) OR col1 > 109.52 OR (col4 > 664.40)
 100 values hashing to d7fd31c3916c207fd3117332326c3f37
 
 statement ok
-DROP VIEW view_1_tab0_884
+DROP VIEW IF EXISTS view_1_tab0_884 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_884
+DROP VIEW IF EXISTS view_2_tab0_884 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_884
+DROP VIEW IF EXISTS view_3_tab0_884 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -6961,13 +6961,13 @@ SELECT pk FROM tab1 WHERE ((col1 <= 723.96)) OR col1 > 109.52 OR (col4 > 664.40)
 100 values hashing to d7fd31c3916c207fd3117332326c3f37
 
 statement ok
-DROP VIEW view_1_tab1_884
+DROP VIEW IF EXISTS view_1_tab1_884 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_884
+DROP VIEW IF EXISTS view_2_tab1_884 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_884
+DROP VIEW IF EXISTS view_3_tab1_884 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -7056,13 +7056,13 @@ SELECT pk FROM tab2 WHERE ((col1 <= 723.96)) OR col1 > 109.52 OR (col4 > 664.40)
 100 values hashing to d7fd31c3916c207fd3117332326c3f37
 
 statement ok
-DROP VIEW view_1_tab2_884
+DROP VIEW IF EXISTS view_1_tab2_884 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_884
+DROP VIEW IF EXISTS view_2_tab2_884 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_884
+DROP VIEW IF EXISTS view_3_tab2_884 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -7151,13 +7151,13 @@ SELECT pk FROM tab3 WHERE ((col1 <= 723.96)) OR col1 > 109.52 OR (col4 > 664.40)
 100 values hashing to d7fd31c3916c207fd3117332326c3f37
 
 statement ok
-DROP VIEW view_1_tab3_884
+DROP VIEW IF EXISTS view_1_tab3_884 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_884
+DROP VIEW IF EXISTS view_2_tab3_884 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_884
+DROP VIEW IF EXISTS view_3_tab3_884 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -7246,13 +7246,13 @@ SELECT pk FROM tab4 WHERE ((col1 <= 723.96)) OR col1 > 109.52 OR (col4 > 664.40)
 100 values hashing to d7fd31c3916c207fd3117332326c3f37
 
 statement ok
-DROP VIEW view_1_tab4_884
+DROP VIEW IF EXISTS view_1_tab4_884 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_884
+DROP VIEW IF EXISTS view_2_tab4_884 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_884
+DROP VIEW IF EXISTS view_3_tab4_884 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -7343,13 +7343,13 @@ SELECT pk FROM tab0 WHERE col3 < 419
 48 values hashing to 5401d4840718c0fe51deb0a80516444a
 
 statement ok
-DROP VIEW view_1_tab0_885
+DROP VIEW IF EXISTS view_1_tab0_885 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_885
+DROP VIEW IF EXISTS view_2_tab0_885 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_885
+DROP VIEW IF EXISTS view_3_tab0_885 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -7440,13 +7440,13 @@ SELECT pk FROM tab1 WHERE col3 < 419
 48 values hashing to 5401d4840718c0fe51deb0a80516444a
 
 statement ok
-DROP VIEW view_1_tab1_885
+DROP VIEW IF EXISTS view_1_tab1_885 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_885
+DROP VIEW IF EXISTS view_2_tab1_885 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_885
+DROP VIEW IF EXISTS view_3_tab1_885 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -7537,13 +7537,13 @@ SELECT pk FROM tab2 WHERE col3 < 419
 48 values hashing to 5401d4840718c0fe51deb0a80516444a
 
 statement ok
-DROP VIEW view_1_tab2_885
+DROP VIEW IF EXISTS view_1_tab2_885 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_885
+DROP VIEW IF EXISTS view_2_tab2_885 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_885
+DROP VIEW IF EXISTS view_3_tab2_885 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -7634,13 +7634,13 @@ SELECT pk FROM tab3 WHERE col3 < 419
 48 values hashing to 5401d4840718c0fe51deb0a80516444a
 
 statement ok
-DROP VIEW view_1_tab3_885
+DROP VIEW IF EXISTS view_1_tab3_885 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_885
+DROP VIEW IF EXISTS view_2_tab3_885 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_885
+DROP VIEW IF EXISTS view_3_tab3_885 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -7731,13 +7731,13 @@ SELECT pk FROM tab4 WHERE col3 < 419
 48 values hashing to 5401d4840718c0fe51deb0a80516444a
 
 statement ok
-DROP VIEW view_1_tab4_885
+DROP VIEW IF EXISTS view_1_tab4_885 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_885
+DROP VIEW IF EXISTS view_2_tab4_885 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_885
+DROP VIEW IF EXISTS view_3_tab4_885 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -7828,13 +7828,13 @@ SELECT pk FROM tab0 WHERE col1 < 85.65 OR col0 <= 401 AND col1 > 37.94 OR (col3 
 44 values hashing to cc29967398752ecb8720ba863f645332
 
 statement ok
-DROP VIEW view_1_tab0_886
+DROP VIEW IF EXISTS view_1_tab0_886 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_886
+DROP VIEW IF EXISTS view_2_tab0_886 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_886
+DROP VIEW IF EXISTS view_3_tab0_886 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -7925,13 +7925,13 @@ SELECT pk FROM tab1 WHERE col1 < 85.65 OR col0 <= 401 AND col1 > 37.94 OR (col3 
 44 values hashing to cc29967398752ecb8720ba863f645332
 
 statement ok
-DROP VIEW view_1_tab1_886
+DROP VIEW IF EXISTS view_1_tab1_886 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_886
+DROP VIEW IF EXISTS view_2_tab1_886 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_886
+DROP VIEW IF EXISTS view_3_tab1_886 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -8022,13 +8022,13 @@ SELECT pk FROM tab2 WHERE col1 < 85.65 OR col0 <= 401 AND col1 > 37.94 OR (col3 
 44 values hashing to cc29967398752ecb8720ba863f645332
 
 statement ok
-DROP VIEW view_1_tab2_886
+DROP VIEW IF EXISTS view_1_tab2_886 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_886
+DROP VIEW IF EXISTS view_2_tab2_886 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_886
+DROP VIEW IF EXISTS view_3_tab2_886 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -8119,13 +8119,13 @@ SELECT pk FROM tab3 WHERE col1 < 85.65 OR col0 <= 401 AND col1 > 37.94 OR (col3 
 44 values hashing to cc29967398752ecb8720ba863f645332
 
 statement ok
-DROP VIEW view_1_tab3_886
+DROP VIEW IF EXISTS view_1_tab3_886 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_886
+DROP VIEW IF EXISTS view_2_tab3_886 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_886
+DROP VIEW IF EXISTS view_3_tab3_886 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -8216,13 +8216,13 @@ SELECT pk FROM tab4 WHERE col1 < 85.65 OR col0 <= 401 AND col1 > 37.94 OR (col3 
 44 values hashing to cc29967398752ecb8720ba863f645332
 
 statement ok
-DROP VIEW view_1_tab4_886
+DROP VIEW IF EXISTS view_1_tab4_886 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_886
+DROP VIEW IF EXISTS view_2_tab4_886 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_886
+DROP VIEW IF EXISTS view_3_tab4_886 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -8308,13 +8308,13 @@ SELECT pk FROM tab0 WHERE ((((col3 > 391 AND col4 > 703.53))) AND (col3 >= 109) 
 ----
 
 statement ok
-DROP VIEW view_1_tab0_887
+DROP VIEW IF EXISTS view_1_tab0_887 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_887
+DROP VIEW IF EXISTS view_2_tab0_887 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_887
+DROP VIEW IF EXISTS view_3_tab0_887 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -8400,13 +8400,13 @@ SELECT pk FROM tab1 WHERE ((((col3 > 391 AND col4 > 703.53))) AND (col3 >= 109) 
 ----
 
 statement ok
-DROP VIEW view_1_tab1_887
+DROP VIEW IF EXISTS view_1_tab1_887 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_887
+DROP VIEW IF EXISTS view_2_tab1_887 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_887
+DROP VIEW IF EXISTS view_3_tab1_887 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -8492,13 +8492,13 @@ SELECT pk FROM tab2 WHERE ((((col3 > 391 AND col4 > 703.53))) AND (col3 >= 109) 
 ----
 
 statement ok
-DROP VIEW view_1_tab2_887
+DROP VIEW IF EXISTS view_1_tab2_887 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_887
+DROP VIEW IF EXISTS view_2_tab2_887 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_887
+DROP VIEW IF EXISTS view_3_tab2_887 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -8584,13 +8584,13 @@ SELECT pk FROM tab3 WHERE ((((col3 > 391 AND col4 > 703.53))) AND (col3 >= 109) 
 ----
 
 statement ok
-DROP VIEW view_1_tab3_887
+DROP VIEW IF EXISTS view_1_tab3_887 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_887
+DROP VIEW IF EXISTS view_2_tab3_887 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_887
+DROP VIEW IF EXISTS view_3_tab3_887 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -8676,13 +8676,13 @@ SELECT pk FROM tab4 WHERE ((((col3 > 391 AND col4 > 703.53))) AND (col3 >= 109) 
 ----
 
 statement ok
-DROP VIEW view_1_tab4_887
+DROP VIEW IF EXISTS view_1_tab4_887 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_887
+DROP VIEW IF EXISTS view_2_tab4_887 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_887
+DROP VIEW IF EXISTS view_3_tab4_887 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -8773,13 +8773,13 @@ SELECT pk FROM tab0 WHERE col0 >= 192
 83 values hashing to 203a0d98eee0ba1feb7969031086031c
 
 statement ok
-DROP VIEW view_1_tab0_888
+DROP VIEW IF EXISTS view_1_tab0_888 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_888
+DROP VIEW IF EXISTS view_2_tab0_888 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_888
+DROP VIEW IF EXISTS view_3_tab0_888 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -8870,13 +8870,13 @@ SELECT pk FROM tab1 WHERE col0 >= 192
 83 values hashing to 203a0d98eee0ba1feb7969031086031c
 
 statement ok
-DROP VIEW view_1_tab1_888
+DROP VIEW IF EXISTS view_1_tab1_888 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_888
+DROP VIEW IF EXISTS view_2_tab1_888 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_888
+DROP VIEW IF EXISTS view_3_tab1_888 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -8967,13 +8967,13 @@ SELECT pk FROM tab2 WHERE col0 >= 192
 83 values hashing to 203a0d98eee0ba1feb7969031086031c
 
 statement ok
-DROP VIEW view_1_tab2_888
+DROP VIEW IF EXISTS view_1_tab2_888 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_888
+DROP VIEW IF EXISTS view_2_tab2_888 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_888
+DROP VIEW IF EXISTS view_3_tab2_888 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -9064,13 +9064,13 @@ SELECT pk FROM tab3 WHERE col0 >= 192
 83 values hashing to 203a0d98eee0ba1feb7969031086031c
 
 statement ok
-DROP VIEW view_1_tab3_888
+DROP VIEW IF EXISTS view_1_tab3_888 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_888
+DROP VIEW IF EXISTS view_2_tab3_888 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_888
+DROP VIEW IF EXISTS view_3_tab3_888 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -9161,13 +9161,13 @@ SELECT pk FROM tab4 WHERE col0 >= 192
 83 values hashing to 203a0d98eee0ba1feb7969031086031c
 
 statement ok
-DROP VIEW view_1_tab4_888
+DROP VIEW IF EXISTS view_1_tab4_888 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_888
+DROP VIEW IF EXISTS view_2_tab4_888 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_888
+DROP VIEW IF EXISTS view_3_tab4_888 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -9258,13 +9258,13 @@ SELECT pk FROM tab0 WHERE (col0 < 813) AND col0 < 594 AND (col4 > 398.52) OR (co
 54 values hashing to e83e2d6386ffd9c35b584b3774081b72
 
 statement ok
-DROP VIEW view_1_tab0_889
+DROP VIEW IF EXISTS view_1_tab0_889 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_889
+DROP VIEW IF EXISTS view_2_tab0_889 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_889
+DROP VIEW IF EXISTS view_3_tab0_889 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -9355,13 +9355,13 @@ SELECT pk FROM tab1 WHERE (col0 < 813) AND col0 < 594 AND (col4 > 398.52) OR (co
 54 values hashing to e83e2d6386ffd9c35b584b3774081b72
 
 statement ok
-DROP VIEW view_1_tab1_889
+DROP VIEW IF EXISTS view_1_tab1_889 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_889
+DROP VIEW IF EXISTS view_2_tab1_889 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_889
+DROP VIEW IF EXISTS view_3_tab1_889 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -9452,13 +9452,13 @@ SELECT pk FROM tab2 WHERE (col0 < 813) AND col0 < 594 AND (col4 > 398.52) OR (co
 54 values hashing to e83e2d6386ffd9c35b584b3774081b72
 
 statement ok
-DROP VIEW view_1_tab2_889
+DROP VIEW IF EXISTS view_1_tab2_889 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_889
+DROP VIEW IF EXISTS view_2_tab2_889 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_889
+DROP VIEW IF EXISTS view_3_tab2_889 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -9549,13 +9549,13 @@ SELECT pk FROM tab3 WHERE (col0 < 813) AND col0 < 594 AND (col4 > 398.52) OR (co
 54 values hashing to e83e2d6386ffd9c35b584b3774081b72
 
 statement ok
-DROP VIEW view_1_tab3_889
+DROP VIEW IF EXISTS view_1_tab3_889 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_889
+DROP VIEW IF EXISTS view_2_tab3_889 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_889
+DROP VIEW IF EXISTS view_3_tab3_889 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -9646,13 +9646,13 @@ SELECT pk FROM tab4 WHERE (col0 < 813) AND col0 < 594 AND (col4 > 398.52) OR (co
 54 values hashing to e83e2d6386ffd9c35b584b3774081b72
 
 statement ok
-DROP VIEW view_1_tab4_889
+DROP VIEW IF EXISTS view_1_tab4_889 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_889
+DROP VIEW IF EXISTS view_2_tab4_889 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_889
+DROP VIEW IF EXISTS view_3_tab4_889 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -9738,13 +9738,13 @@ SELECT pk FROM tab0 WHERE ((((((col0 = 969) AND (col3 < 198)))))) AND col3 < 61
 ----
 
 statement ok
-DROP VIEW view_1_tab0_890
+DROP VIEW IF EXISTS view_1_tab0_890 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_890
+DROP VIEW IF EXISTS view_2_tab0_890 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_890
+DROP VIEW IF EXISTS view_3_tab0_890 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -9830,13 +9830,13 @@ SELECT pk FROM tab1 WHERE ((((((col0 = 969) AND (col3 < 198)))))) AND col3 < 61
 ----
 
 statement ok
-DROP VIEW view_1_tab1_890
+DROP VIEW IF EXISTS view_1_tab1_890 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_890
+DROP VIEW IF EXISTS view_2_tab1_890 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_890
+DROP VIEW IF EXISTS view_3_tab1_890 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -9922,13 +9922,13 @@ SELECT pk FROM tab2 WHERE ((((((col0 = 969) AND (col3 < 198)))))) AND col3 < 61
 ----
 
 statement ok
-DROP VIEW view_1_tab2_890
+DROP VIEW IF EXISTS view_1_tab2_890 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_890
+DROP VIEW IF EXISTS view_2_tab2_890 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_890
+DROP VIEW IF EXISTS view_3_tab2_890 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -10014,13 +10014,13 @@ SELECT pk FROM tab3 WHERE ((((((col0 = 969) AND (col3 < 198)))))) AND col3 < 61
 ----
 
 statement ok
-DROP VIEW view_1_tab3_890
+DROP VIEW IF EXISTS view_1_tab3_890 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_890
+DROP VIEW IF EXISTS view_2_tab3_890 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_890
+DROP VIEW IF EXISTS view_3_tab3_890 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -10106,13 +10106,13 @@ SELECT pk FROM tab4 WHERE ((((((col0 = 969) AND (col3 < 198)))))) AND col3 < 61
 ----
 
 statement ok
-DROP VIEW view_1_tab4_890
+DROP VIEW IF EXISTS view_1_tab4_890 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_890
+DROP VIEW IF EXISTS view_2_tab4_890 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_890
+DROP VIEW IF EXISTS view_3_tab4_890 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -10198,13 +10198,13 @@ SELECT pk FROM tab0 WHERE col4 = 495.61
 ----
 
 statement ok
-DROP VIEW view_1_tab0_891
+DROP VIEW IF EXISTS view_1_tab0_891 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_891
+DROP VIEW IF EXISTS view_2_tab0_891 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_891
+DROP VIEW IF EXISTS view_3_tab0_891 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -10290,13 +10290,13 @@ SELECT pk FROM tab1 WHERE col4 = 495.61
 ----
 
 statement ok
-DROP VIEW view_1_tab1_891
+DROP VIEW IF EXISTS view_1_tab1_891 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_891
+DROP VIEW IF EXISTS view_2_tab1_891 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_891
+DROP VIEW IF EXISTS view_3_tab1_891 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -10382,13 +10382,13 @@ SELECT pk FROM tab2 WHERE col4 = 495.61
 ----
 
 statement ok
-DROP VIEW view_1_tab2_891
+DROP VIEW IF EXISTS view_1_tab2_891 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_891
+DROP VIEW IF EXISTS view_2_tab2_891 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_891
+DROP VIEW IF EXISTS view_3_tab2_891 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -10474,13 +10474,13 @@ SELECT pk FROM tab3 WHERE col4 = 495.61
 ----
 
 statement ok
-DROP VIEW view_1_tab3_891
+DROP VIEW IF EXISTS view_1_tab3_891 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_891
+DROP VIEW IF EXISTS view_2_tab3_891 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_891
+DROP VIEW IF EXISTS view_3_tab3_891 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -10566,13 +10566,13 @@ SELECT pk FROM tab4 WHERE col4 = 495.61
 ----
 
 statement ok
-DROP VIEW view_1_tab4_891
+DROP VIEW IF EXISTS view_1_tab4_891 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_891
+DROP VIEW IF EXISTS view_2_tab4_891 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_891
+DROP VIEW IF EXISTS view_3_tab4_891 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -10663,13 +10663,13 @@ SELECT pk FROM tab0 WHERE (col3 < 661) OR (col0 IS NULL)
 67 values hashing to 1ae557516b643c17ad02f5d0e41f6c73
 
 statement ok
-DROP VIEW view_1_tab0_892
+DROP VIEW IF EXISTS view_1_tab0_892 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_892
+DROP VIEW IF EXISTS view_2_tab0_892 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_892
+DROP VIEW IF EXISTS view_3_tab0_892 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -10760,13 +10760,13 @@ SELECT pk FROM tab1 WHERE (col3 < 661) OR (col0 IS NULL)
 67 values hashing to 1ae557516b643c17ad02f5d0e41f6c73
 
 statement ok
-DROP VIEW view_1_tab1_892
+DROP VIEW IF EXISTS view_1_tab1_892 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_892
+DROP VIEW IF EXISTS view_2_tab1_892 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_892
+DROP VIEW IF EXISTS view_3_tab1_892 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -10857,13 +10857,13 @@ SELECT pk FROM tab2 WHERE (col3 < 661) OR (col0 IS NULL)
 67 values hashing to 1ae557516b643c17ad02f5d0e41f6c73
 
 statement ok
-DROP VIEW view_1_tab2_892
+DROP VIEW IF EXISTS view_1_tab2_892 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_892
+DROP VIEW IF EXISTS view_2_tab2_892 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_892
+DROP VIEW IF EXISTS view_3_tab2_892 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -10954,13 +10954,13 @@ SELECT pk FROM tab3 WHERE (col3 < 661) OR (col0 IS NULL)
 67 values hashing to 1ae557516b643c17ad02f5d0e41f6c73
 
 statement ok
-DROP VIEW view_1_tab3_892
+DROP VIEW IF EXISTS view_1_tab3_892 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_892
+DROP VIEW IF EXISTS view_2_tab3_892 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_892
+DROP VIEW IF EXISTS view_3_tab3_892 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -11051,13 +11051,13 @@ SELECT pk FROM tab4 WHERE (col3 < 661) OR (col0 IS NULL)
 67 values hashing to 1ae557516b643c17ad02f5d0e41f6c73
 
 statement ok
-DROP VIEW view_1_tab4_892
+DROP VIEW IF EXISTS view_1_tab4_892 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_892
+DROP VIEW IF EXISTS view_2_tab4_892 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_892
+DROP VIEW IF EXISTS view_3_tab4_892 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -11148,13 +11148,13 @@ SELECT pk FROM tab0 WHERE ((((col0 = 348 OR (col3 >= 649 AND (col4 = 215.89)) OR
 93 values hashing to 872c8005e3d539779b5031fe794022c4
 
 statement ok
-DROP VIEW view_1_tab0_893
+DROP VIEW IF EXISTS view_1_tab0_893 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_893
+DROP VIEW IF EXISTS view_2_tab0_893 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_893
+DROP VIEW IF EXISTS view_3_tab0_893 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -11245,13 +11245,13 @@ SELECT pk FROM tab1 WHERE ((((col0 = 348 OR (col3 >= 649 AND (col4 = 215.89)) OR
 93 values hashing to 872c8005e3d539779b5031fe794022c4
 
 statement ok
-DROP VIEW view_1_tab1_893
+DROP VIEW IF EXISTS view_1_tab1_893 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_893
+DROP VIEW IF EXISTS view_2_tab1_893 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_893
+DROP VIEW IF EXISTS view_3_tab1_893 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -11342,13 +11342,13 @@ SELECT pk FROM tab2 WHERE ((((col0 = 348 OR (col3 >= 649 AND (col4 = 215.89)) OR
 93 values hashing to 872c8005e3d539779b5031fe794022c4
 
 statement ok
-DROP VIEW view_1_tab2_893
+DROP VIEW IF EXISTS view_1_tab2_893 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_893
+DROP VIEW IF EXISTS view_2_tab2_893 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_893
+DROP VIEW IF EXISTS view_3_tab2_893 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -11439,13 +11439,13 @@ SELECT pk FROM tab3 WHERE ((((col0 = 348 OR (col3 >= 649 AND (col4 = 215.89)) OR
 93 values hashing to 872c8005e3d539779b5031fe794022c4
 
 statement ok
-DROP VIEW view_1_tab3_893
+DROP VIEW IF EXISTS view_1_tab3_893 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_893
+DROP VIEW IF EXISTS view_2_tab3_893 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_893
+DROP VIEW IF EXISTS view_3_tab3_893 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -11536,13 +11536,13 @@ SELECT pk FROM tab4 WHERE ((((col0 = 348 OR (col3 >= 649 AND (col4 = 215.89)) OR
 93 values hashing to 872c8005e3d539779b5031fe794022c4
 
 statement ok
-DROP VIEW view_1_tab4_893
+DROP VIEW IF EXISTS view_1_tab4_893 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_893
+DROP VIEW IF EXISTS view_2_tab4_893 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_893
+DROP VIEW IF EXISTS view_3_tab4_893 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -11633,13 +11633,13 @@ SELECT pk FROM tab0 WHERE (((col1 > 357.12)))
 65 values hashing to 0247fada3c7106f6e51bff35f3d74e32
 
 statement ok
-DROP VIEW view_1_tab0_894
+DROP VIEW IF EXISTS view_1_tab0_894 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_894
+DROP VIEW IF EXISTS view_2_tab0_894 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_894
+DROP VIEW IF EXISTS view_3_tab0_894 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -11730,13 +11730,13 @@ SELECT pk FROM tab1 WHERE (((col1 > 357.12)))
 65 values hashing to 0247fada3c7106f6e51bff35f3d74e32
 
 statement ok
-DROP VIEW view_1_tab1_894
+DROP VIEW IF EXISTS view_1_tab1_894 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_894
+DROP VIEW IF EXISTS view_2_tab1_894 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_894
+DROP VIEW IF EXISTS view_3_tab1_894 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -11827,13 +11827,13 @@ SELECT pk FROM tab2 WHERE (((col1 > 357.12)))
 65 values hashing to 0247fada3c7106f6e51bff35f3d74e32
 
 statement ok
-DROP VIEW view_1_tab2_894
+DROP VIEW IF EXISTS view_1_tab2_894 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_894
+DROP VIEW IF EXISTS view_2_tab2_894 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_894
+DROP VIEW IF EXISTS view_3_tab2_894 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -11924,13 +11924,13 @@ SELECT pk FROM tab3 WHERE (((col1 > 357.12)))
 65 values hashing to 0247fada3c7106f6e51bff35f3d74e32
 
 statement ok
-DROP VIEW view_1_tab3_894
+DROP VIEW IF EXISTS view_1_tab3_894 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_894
+DROP VIEW IF EXISTS view_2_tab3_894 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_894
+DROP VIEW IF EXISTS view_3_tab3_894 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -12021,13 +12021,13 @@ SELECT pk FROM tab4 WHERE (((col1 > 357.12)))
 65 values hashing to 0247fada3c7106f6e51bff35f3d74e32
 
 statement ok
-DROP VIEW view_1_tab4_894
+DROP VIEW IF EXISTS view_1_tab4_894 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_894
+DROP VIEW IF EXISTS view_2_tab4_894 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_894
+DROP VIEW IF EXISTS view_3_tab4_894 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -12118,13 +12118,13 @@ SELECT pk FROM tab0 WHERE (col0 < 625)
 58 values hashing to 8a1a89abf6841aa16b6293f75b86da49
 
 statement ok
-DROP VIEW view_1_tab0_895
+DROP VIEW IF EXISTS view_1_tab0_895 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_895
+DROP VIEW IF EXISTS view_2_tab0_895 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_895
+DROP VIEW IF EXISTS view_3_tab0_895 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -12215,13 +12215,13 @@ SELECT pk FROM tab1 WHERE (col0 < 625)
 58 values hashing to 8a1a89abf6841aa16b6293f75b86da49
 
 statement ok
-DROP VIEW view_1_tab1_895
+DROP VIEW IF EXISTS view_1_tab1_895 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_895
+DROP VIEW IF EXISTS view_2_tab1_895 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_895
+DROP VIEW IF EXISTS view_3_tab1_895 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -12312,13 +12312,13 @@ SELECT pk FROM tab2 WHERE (col0 < 625)
 58 values hashing to 8a1a89abf6841aa16b6293f75b86da49
 
 statement ok
-DROP VIEW view_1_tab2_895
+DROP VIEW IF EXISTS view_1_tab2_895 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_895
+DROP VIEW IF EXISTS view_2_tab2_895 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_895
+DROP VIEW IF EXISTS view_3_tab2_895 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -12409,13 +12409,13 @@ SELECT pk FROM tab3 WHERE (col0 < 625)
 58 values hashing to 8a1a89abf6841aa16b6293f75b86da49
 
 statement ok
-DROP VIEW view_1_tab3_895
+DROP VIEW IF EXISTS view_1_tab3_895 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_895
+DROP VIEW IF EXISTS view_2_tab3_895 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_895
+DROP VIEW IF EXISTS view_3_tab3_895 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -12506,13 +12506,13 @@ SELECT pk FROM tab4 WHERE (col0 < 625)
 58 values hashing to 8a1a89abf6841aa16b6293f75b86da49
 
 statement ok
-DROP VIEW view_1_tab4_895
+DROP VIEW IF EXISTS view_1_tab4_895 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_895
+DROP VIEW IF EXISTS view_2_tab4_895 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_895
+DROP VIEW IF EXISTS view_3_tab4_895 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -12603,13 +12603,13 @@ SELECT pk FROM tab0 WHERE col1 >= 879.30
 10 values hashing to 363c836dbbbaa32ccb40262764ce2006
 
 statement ok
-DROP VIEW view_1_tab0_896
+DROP VIEW IF EXISTS view_1_tab0_896 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_896
+DROP VIEW IF EXISTS view_2_tab0_896 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_896
+DROP VIEW IF EXISTS view_3_tab0_896 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -12700,13 +12700,13 @@ SELECT pk FROM tab1 WHERE col1 >= 879.30
 10 values hashing to 363c836dbbbaa32ccb40262764ce2006
 
 statement ok
-DROP VIEW view_1_tab1_896
+DROP VIEW IF EXISTS view_1_tab1_896 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_896
+DROP VIEW IF EXISTS view_2_tab1_896 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_896
+DROP VIEW IF EXISTS view_3_tab1_896 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -12797,13 +12797,13 @@ SELECT pk FROM tab2 WHERE col1 >= 879.30
 10 values hashing to 363c836dbbbaa32ccb40262764ce2006
 
 statement ok
-DROP VIEW view_1_tab2_896
+DROP VIEW IF EXISTS view_1_tab2_896 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_896
+DROP VIEW IF EXISTS view_2_tab2_896 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_896
+DROP VIEW IF EXISTS view_3_tab2_896 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -12894,13 +12894,13 @@ SELECT pk FROM tab3 WHERE col1 >= 879.30
 10 values hashing to 363c836dbbbaa32ccb40262764ce2006
 
 statement ok
-DROP VIEW view_1_tab3_896
+DROP VIEW IF EXISTS view_1_tab3_896 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_896
+DROP VIEW IF EXISTS view_2_tab3_896 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_896
+DROP VIEW IF EXISTS view_3_tab3_896 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -12991,13 +12991,13 @@ SELECT pk FROM tab4 WHERE col1 >= 879.30
 10 values hashing to 363c836dbbbaa32ccb40262764ce2006
 
 statement ok
-DROP VIEW view_1_tab4_896
+DROP VIEW IF EXISTS view_1_tab4_896 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_896
+DROP VIEW IF EXISTS view_2_tab4_896 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_896
+DROP VIEW IF EXISTS view_3_tab4_896 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -13088,13 +13088,13 @@ SELECT pk FROM tab0 WHERE (col4 > 651.20)
 29 values hashing to 6dbfcb55ed9e910235a6c924f950dc71
 
 statement ok
-DROP VIEW view_1_tab0_897
+DROP VIEW IF EXISTS view_1_tab0_897 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_897
+DROP VIEW IF EXISTS view_2_tab0_897 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_897
+DROP VIEW IF EXISTS view_3_tab0_897 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -13185,13 +13185,13 @@ SELECT pk FROM tab1 WHERE (col4 > 651.20)
 29 values hashing to 6dbfcb55ed9e910235a6c924f950dc71
 
 statement ok
-DROP VIEW view_1_tab1_897
+DROP VIEW IF EXISTS view_1_tab1_897 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_897
+DROP VIEW IF EXISTS view_2_tab1_897 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_897
+DROP VIEW IF EXISTS view_3_tab1_897 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -13282,13 +13282,13 @@ SELECT pk FROM tab2 WHERE (col4 > 651.20)
 29 values hashing to 6dbfcb55ed9e910235a6c924f950dc71
 
 statement ok
-DROP VIEW view_1_tab2_897
+DROP VIEW IF EXISTS view_1_tab2_897 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_897
+DROP VIEW IF EXISTS view_2_tab2_897 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_897
+DROP VIEW IF EXISTS view_3_tab2_897 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -13379,13 +13379,13 @@ SELECT pk FROM tab3 WHERE (col4 > 651.20)
 29 values hashing to 6dbfcb55ed9e910235a6c924f950dc71
 
 statement ok
-DROP VIEW view_1_tab3_897
+DROP VIEW IF EXISTS view_1_tab3_897 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_897
+DROP VIEW IF EXISTS view_2_tab3_897 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_897
+DROP VIEW IF EXISTS view_3_tab3_897 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -13476,13 +13476,13 @@ SELECT pk FROM tab4 WHERE (col4 > 651.20)
 29 values hashing to 6dbfcb55ed9e910235a6c924f950dc71
 
 statement ok
-DROP VIEW view_1_tab4_897
+DROP VIEW IF EXISTS view_1_tab4_897 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_897
+DROP VIEW IF EXISTS view_2_tab4_897 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_897
+DROP VIEW IF EXISTS view_3_tab4_897 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -13573,13 +13573,13 @@ SELECT pk FROM tab0 WHERE (col0 > 830)
 17 values hashing to 4ec52848dc9bb2e016157c8dd39bb282
 
 statement ok
-DROP VIEW view_1_tab0_898
+DROP VIEW IF EXISTS view_1_tab0_898 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_898
+DROP VIEW IF EXISTS view_2_tab0_898 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_898
+DROP VIEW IF EXISTS view_3_tab0_898 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -13670,13 +13670,13 @@ SELECT pk FROM tab1 WHERE (col0 > 830)
 17 values hashing to 4ec52848dc9bb2e016157c8dd39bb282
 
 statement ok
-DROP VIEW view_1_tab1_898
+DROP VIEW IF EXISTS view_1_tab1_898 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_898
+DROP VIEW IF EXISTS view_2_tab1_898 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_898
+DROP VIEW IF EXISTS view_3_tab1_898 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -13767,13 +13767,13 @@ SELECT pk FROM tab2 WHERE (col0 > 830)
 17 values hashing to 4ec52848dc9bb2e016157c8dd39bb282
 
 statement ok
-DROP VIEW view_1_tab2_898
+DROP VIEW IF EXISTS view_1_tab2_898 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_898
+DROP VIEW IF EXISTS view_2_tab2_898 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_898
+DROP VIEW IF EXISTS view_3_tab2_898 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -13864,13 +13864,13 @@ SELECT pk FROM tab3 WHERE (col0 > 830)
 17 values hashing to 4ec52848dc9bb2e016157c8dd39bb282
 
 statement ok
-DROP VIEW view_1_tab3_898
+DROP VIEW IF EXISTS view_1_tab3_898 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_898
+DROP VIEW IF EXISTS view_2_tab3_898 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_898
+DROP VIEW IF EXISTS view_3_tab3_898 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -13961,13 +13961,13 @@ SELECT pk FROM tab4 WHERE (col0 > 830)
 17 values hashing to 4ec52848dc9bb2e016157c8dd39bb282
 
 statement ok
-DROP VIEW view_1_tab4_898
+DROP VIEW IF EXISTS view_1_tab4_898 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_898
+DROP VIEW IF EXISTS view_2_tab4_898 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_898
+DROP VIEW IF EXISTS view_3_tab4_898 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -14058,13 +14058,13 @@ SELECT pk FROM tab0 WHERE col3 > 475
 49 values hashing to 8c3e4bcebb338e1f215a9d6392a2b5a1
 
 statement ok
-DROP VIEW view_1_tab0_899
+DROP VIEW IF EXISTS view_1_tab0_899 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_899
+DROP VIEW IF EXISTS view_2_tab0_899 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_899
+DROP VIEW IF EXISTS view_3_tab0_899 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -14155,13 +14155,13 @@ SELECT pk FROM tab1 WHERE col3 > 475
 49 values hashing to 8c3e4bcebb338e1f215a9d6392a2b5a1
 
 statement ok
-DROP VIEW view_1_tab1_899
+DROP VIEW IF EXISTS view_1_tab1_899 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_899
+DROP VIEW IF EXISTS view_2_tab1_899 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_899
+DROP VIEW IF EXISTS view_3_tab1_899 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -14252,13 +14252,13 @@ SELECT pk FROM tab2 WHERE col3 > 475
 49 values hashing to 8c3e4bcebb338e1f215a9d6392a2b5a1
 
 statement ok
-DROP VIEW view_1_tab2_899
+DROP VIEW IF EXISTS view_1_tab2_899 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_899
+DROP VIEW IF EXISTS view_2_tab2_899 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_899
+DROP VIEW IF EXISTS view_3_tab2_899 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -14349,13 +14349,13 @@ SELECT pk FROM tab3 WHERE col3 > 475
 49 values hashing to 8c3e4bcebb338e1f215a9d6392a2b5a1
 
 statement ok
-DROP VIEW view_1_tab3_899
+DROP VIEW IF EXISTS view_1_tab3_899 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_899
+DROP VIEW IF EXISTS view_2_tab3_899 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_899
+DROP VIEW IF EXISTS view_3_tab3_899 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -14446,13 +14446,13 @@ SELECT pk FROM tab4 WHERE col3 > 475
 49 values hashing to 8c3e4bcebb338e1f215a9d6392a2b5a1
 
 statement ok
-DROP VIEW view_1_tab4_899
+DROP VIEW IF EXISTS view_1_tab4_899 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_899
+DROP VIEW IF EXISTS view_2_tab4_899 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_899
+DROP VIEW IF EXISTS view_3_tab4_899 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -14543,13 +14543,13 @@ SELECT pk FROM tab0 WHERE col4 > 857.31
 13 values hashing to 259e2f30fd941d29c425a1fc9cb1df43
 
 statement ok
-DROP VIEW view_1_tab0_900
+DROP VIEW IF EXISTS view_1_tab0_900 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_900
+DROP VIEW IF EXISTS view_2_tab0_900 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_900
+DROP VIEW IF EXISTS view_3_tab0_900 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -14640,13 +14640,13 @@ SELECT pk FROM tab1 WHERE col4 > 857.31
 13 values hashing to 259e2f30fd941d29c425a1fc9cb1df43
 
 statement ok
-DROP VIEW view_1_tab1_900
+DROP VIEW IF EXISTS view_1_tab1_900 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_900
+DROP VIEW IF EXISTS view_2_tab1_900 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_900
+DROP VIEW IF EXISTS view_3_tab1_900 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -14737,13 +14737,13 @@ SELECT pk FROM tab2 WHERE col4 > 857.31
 13 values hashing to 259e2f30fd941d29c425a1fc9cb1df43
 
 statement ok
-DROP VIEW view_1_tab2_900
+DROP VIEW IF EXISTS view_1_tab2_900 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_900
+DROP VIEW IF EXISTS view_2_tab2_900 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_900
+DROP VIEW IF EXISTS view_3_tab2_900 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -14834,13 +14834,13 @@ SELECT pk FROM tab3 WHERE col4 > 857.31
 13 values hashing to 259e2f30fd941d29c425a1fc9cb1df43
 
 statement ok
-DROP VIEW view_1_tab3_900
+DROP VIEW IF EXISTS view_1_tab3_900 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_900
+DROP VIEW IF EXISTS view_2_tab3_900 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_900
+DROP VIEW IF EXISTS view_3_tab3_900 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -14931,13 +14931,13 @@ SELECT pk FROM tab4 WHERE col4 > 857.31
 13 values hashing to 259e2f30fd941d29c425a1fc9cb1df43
 
 statement ok
-DROP VIEW view_1_tab4_900
+DROP VIEW IF EXISTS view_1_tab4_900 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_900
+DROP VIEW IF EXISTS view_2_tab4_900 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_900
+DROP VIEW IF EXISTS view_3_tab4_900 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -15028,13 +15028,13 @@ SELECT pk FROM tab0 WHERE col4 BETWEEN 290.87 AND 700.72 AND col3 IS NULL AND co
 9 values hashing to 17645e17578b39eb0e8a1735ad17eced
 
 statement ok
-DROP VIEW view_1_tab0_901
+DROP VIEW IF EXISTS view_1_tab0_901 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_901
+DROP VIEW IF EXISTS view_2_tab0_901 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_901
+DROP VIEW IF EXISTS view_3_tab0_901 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -15125,13 +15125,13 @@ SELECT pk FROM tab1 WHERE col4 BETWEEN 290.87 AND 700.72 AND col3 IS NULL AND co
 9 values hashing to 17645e17578b39eb0e8a1735ad17eced
 
 statement ok
-DROP VIEW view_1_tab1_901
+DROP VIEW IF EXISTS view_1_tab1_901 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_901
+DROP VIEW IF EXISTS view_2_tab1_901 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_901
+DROP VIEW IF EXISTS view_3_tab1_901 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -15222,13 +15222,13 @@ SELECT pk FROM tab2 WHERE col4 BETWEEN 290.87 AND 700.72 AND col3 IS NULL AND co
 9 values hashing to 17645e17578b39eb0e8a1735ad17eced
 
 statement ok
-DROP VIEW view_1_tab2_901
+DROP VIEW IF EXISTS view_1_tab2_901 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_901
+DROP VIEW IF EXISTS view_2_tab2_901 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_901
+DROP VIEW IF EXISTS view_3_tab2_901 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -15319,13 +15319,13 @@ SELECT pk FROM tab3 WHERE col4 BETWEEN 290.87 AND 700.72 AND col3 IS NULL AND co
 9 values hashing to 17645e17578b39eb0e8a1735ad17eced
 
 statement ok
-DROP VIEW view_1_tab3_901
+DROP VIEW IF EXISTS view_1_tab3_901 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_901
+DROP VIEW IF EXISTS view_2_tab3_901 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_901
+DROP VIEW IF EXISTS view_3_tab3_901 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -15416,13 +15416,13 @@ SELECT pk FROM tab4 WHERE col4 BETWEEN 290.87 AND 700.72 AND col3 IS NULL AND co
 9 values hashing to 17645e17578b39eb0e8a1735ad17eced
 
 statement ok
-DROP VIEW view_1_tab4_901
+DROP VIEW IF EXISTS view_1_tab4_901 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_901
+DROP VIEW IF EXISTS view_2_tab4_901 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_901
+DROP VIEW IF EXISTS view_3_tab4_901 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -15513,13 +15513,13 @@ SELECT pk FROM tab0 WHERE col0 < 487
 43 values hashing to 6dbba989911e394a8c89c6ded68c8ae5
 
 statement ok
-DROP VIEW view_1_tab0_902
+DROP VIEW IF EXISTS view_1_tab0_902 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_902
+DROP VIEW IF EXISTS view_2_tab0_902 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_902
+DROP VIEW IF EXISTS view_3_tab0_902 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -15610,13 +15610,13 @@ SELECT pk FROM tab1 WHERE col0 < 487
 43 values hashing to 6dbba989911e394a8c89c6ded68c8ae5
 
 statement ok
-DROP VIEW view_1_tab1_902
+DROP VIEW IF EXISTS view_1_tab1_902 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_902
+DROP VIEW IF EXISTS view_2_tab1_902 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_902
+DROP VIEW IF EXISTS view_3_tab1_902 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -15707,13 +15707,13 @@ SELECT pk FROM tab2 WHERE col0 < 487
 43 values hashing to 6dbba989911e394a8c89c6ded68c8ae5
 
 statement ok
-DROP VIEW view_1_tab2_902
+DROP VIEW IF EXISTS view_1_tab2_902 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_902
+DROP VIEW IF EXISTS view_2_tab2_902 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_902
+DROP VIEW IF EXISTS view_3_tab2_902 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -15804,13 +15804,13 @@ SELECT pk FROM tab3 WHERE col0 < 487
 43 values hashing to 6dbba989911e394a8c89c6ded68c8ae5
 
 statement ok
-DROP VIEW view_1_tab3_902
+DROP VIEW IF EXISTS view_1_tab3_902 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_902
+DROP VIEW IF EXISTS view_2_tab3_902 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_902
+DROP VIEW IF EXISTS view_3_tab3_902 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -15901,13 +15901,13 @@ SELECT pk FROM tab4 WHERE col0 < 487
 43 values hashing to 6dbba989911e394a8c89c6ded68c8ae5
 
 statement ok
-DROP VIEW view_1_tab4_902
+DROP VIEW IF EXISTS view_1_tab4_902 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_902
+DROP VIEW IF EXISTS view_2_tab4_902 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_902
+DROP VIEW IF EXISTS view_3_tab4_902 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -15993,13 +15993,13 @@ SELECT pk FROM tab0 WHERE (col0 < 151 AND col0 > 630 AND col0 IS NULL)
 ----
 
 statement ok
-DROP VIEW view_1_tab0_903
+DROP VIEW IF EXISTS view_1_tab0_903 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_903
+DROP VIEW IF EXISTS view_2_tab0_903 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_903
+DROP VIEW IF EXISTS view_3_tab0_903 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -16085,13 +16085,13 @@ SELECT pk FROM tab1 WHERE (col0 < 151 AND col0 > 630 AND col0 IS NULL)
 ----
 
 statement ok
-DROP VIEW view_1_tab1_903
+DROP VIEW IF EXISTS view_1_tab1_903 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_903
+DROP VIEW IF EXISTS view_2_tab1_903 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_903
+DROP VIEW IF EXISTS view_3_tab1_903 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -16177,13 +16177,13 @@ SELECT pk FROM tab2 WHERE (col0 < 151 AND col0 > 630 AND col0 IS NULL)
 ----
 
 statement ok
-DROP VIEW view_1_tab2_903
+DROP VIEW IF EXISTS view_1_tab2_903 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_903
+DROP VIEW IF EXISTS view_2_tab2_903 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_903
+DROP VIEW IF EXISTS view_3_tab2_903 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -16269,13 +16269,13 @@ SELECT pk FROM tab3 WHERE (col0 < 151 AND col0 > 630 AND col0 IS NULL)
 ----
 
 statement ok
-DROP VIEW view_1_tab3_903
+DROP VIEW IF EXISTS view_1_tab3_903 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_903
+DROP VIEW IF EXISTS view_2_tab3_903 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_903
+DROP VIEW IF EXISTS view_3_tab3_903 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -16361,13 +16361,13 @@ SELECT pk FROM tab4 WHERE (col0 < 151 AND col0 > 630 AND col0 IS NULL)
 ----
 
 statement ok
-DROP VIEW view_1_tab4_903
+DROP VIEW IF EXISTS view_1_tab4_903 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_903
+DROP VIEW IF EXISTS view_2_tab4_903 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_903
+DROP VIEW IF EXISTS view_3_tab4_903 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -16458,13 +16458,13 @@ SELECT pk FROM tab0 WHERE col4 < 196.2
 24 values hashing to 67dc1133759a7a5b663a46b645c21a33
 
 statement ok
-DROP VIEW view_1_tab0_904
+DROP VIEW IF EXISTS view_1_tab0_904 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_904
+DROP VIEW IF EXISTS view_2_tab0_904 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_904
+DROP VIEW IF EXISTS view_3_tab0_904 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -16555,13 +16555,13 @@ SELECT pk FROM tab1 WHERE col4 < 196.2
 24 values hashing to 67dc1133759a7a5b663a46b645c21a33
 
 statement ok
-DROP VIEW view_1_tab1_904
+DROP VIEW IF EXISTS view_1_tab1_904 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_904
+DROP VIEW IF EXISTS view_2_tab1_904 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_904
+DROP VIEW IF EXISTS view_3_tab1_904 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -16652,13 +16652,13 @@ SELECT pk FROM tab2 WHERE col4 < 196.2
 24 values hashing to 67dc1133759a7a5b663a46b645c21a33
 
 statement ok
-DROP VIEW view_1_tab2_904
+DROP VIEW IF EXISTS view_1_tab2_904 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_904
+DROP VIEW IF EXISTS view_2_tab2_904 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_904
+DROP VIEW IF EXISTS view_3_tab2_904 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -16749,13 +16749,13 @@ SELECT pk FROM tab3 WHERE col4 < 196.2
 24 values hashing to 67dc1133759a7a5b663a46b645c21a33
 
 statement ok
-DROP VIEW view_1_tab3_904
+DROP VIEW IF EXISTS view_1_tab3_904 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_904
+DROP VIEW IF EXISTS view_2_tab3_904 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_904
+DROP VIEW IF EXISTS view_3_tab3_904 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -16846,13 +16846,13 @@ SELECT pk FROM tab4 WHERE col4 < 196.2
 24 values hashing to 67dc1133759a7a5b663a46b645c21a33
 
 statement ok
-DROP VIEW view_1_tab4_904
+DROP VIEW IF EXISTS view_1_tab4_904 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_904
+DROP VIEW IF EXISTS view_2_tab4_904 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_904
+DROP VIEW IF EXISTS view_3_tab4_904 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -16943,13 +16943,13 @@ SELECT pk FROM tab0 WHERE (col0 > 490)
 57 values hashing to 08ab48659bf55b5f0a9362746a0e31ed
 
 statement ok
-DROP VIEW view_1_tab0_905
+DROP VIEW IF EXISTS view_1_tab0_905 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_905
+DROP VIEW IF EXISTS view_2_tab0_905 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_905
+DROP VIEW IF EXISTS view_3_tab0_905 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -17040,13 +17040,13 @@ SELECT pk FROM tab1 WHERE (col0 > 490)
 57 values hashing to 08ab48659bf55b5f0a9362746a0e31ed
 
 statement ok
-DROP VIEW view_1_tab1_905
+DROP VIEW IF EXISTS view_1_tab1_905 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_905
+DROP VIEW IF EXISTS view_2_tab1_905 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_905
+DROP VIEW IF EXISTS view_3_tab1_905 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -17137,13 +17137,13 @@ SELECT pk FROM tab2 WHERE (col0 > 490)
 57 values hashing to 08ab48659bf55b5f0a9362746a0e31ed
 
 statement ok
-DROP VIEW view_1_tab2_905
+DROP VIEW IF EXISTS view_1_tab2_905 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_905
+DROP VIEW IF EXISTS view_2_tab2_905 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_905
+DROP VIEW IF EXISTS view_3_tab2_905 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -17234,13 +17234,13 @@ SELECT pk FROM tab3 WHERE (col0 > 490)
 57 values hashing to 08ab48659bf55b5f0a9362746a0e31ed
 
 statement ok
-DROP VIEW view_1_tab3_905
+DROP VIEW IF EXISTS view_1_tab3_905 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_905
+DROP VIEW IF EXISTS view_2_tab3_905 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_905
+DROP VIEW IF EXISTS view_3_tab3_905 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -17331,13 +17331,13 @@ SELECT pk FROM tab4 WHERE (col0 > 490)
 57 values hashing to 08ab48659bf55b5f0a9362746a0e31ed
 
 statement ok
-DROP VIEW view_1_tab4_905
+DROP VIEW IF EXISTS view_1_tab4_905 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_905
+DROP VIEW IF EXISTS view_2_tab4_905 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_905
+DROP VIEW IF EXISTS view_3_tab4_905 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -17442,13 +17442,13 @@ SELECT pk FROM tab0 WHERE col0 < 91 OR ((col3 = 449 OR col0 > 722 AND col0 > 678
 96 values hashing to 7cb25a46d9cd9ea63d9e5e4be0c3d0a1
 
 statement ok
-DROP VIEW view_1_tab0_906
+DROP VIEW IF EXISTS view_1_tab0_906 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_906
+DROP VIEW IF EXISTS view_2_tab0_906 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_906
+DROP VIEW IF EXISTS view_3_tab0_906 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -17553,13 +17553,13 @@ SELECT pk FROM tab1 WHERE col0 < 91 OR ((col3 = 449 OR col0 > 722 AND col0 > 678
 96 values hashing to 7cb25a46d9cd9ea63d9e5e4be0c3d0a1
 
 statement ok
-DROP VIEW view_1_tab1_906
+DROP VIEW IF EXISTS view_1_tab1_906 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_906
+DROP VIEW IF EXISTS view_2_tab1_906 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_906
+DROP VIEW IF EXISTS view_3_tab1_906 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -17664,13 +17664,13 @@ SELECT pk FROM tab2 WHERE col0 < 91 OR ((col3 = 449 OR col0 > 722 AND col0 > 678
 96 values hashing to 7cb25a46d9cd9ea63d9e5e4be0c3d0a1
 
 statement ok
-DROP VIEW view_1_tab2_906
+DROP VIEW IF EXISTS view_1_tab2_906 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_906
+DROP VIEW IF EXISTS view_2_tab2_906 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_906
+DROP VIEW IF EXISTS view_3_tab2_906 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -17775,13 +17775,13 @@ SELECT pk FROM tab3 WHERE col0 < 91 OR ((col3 = 449 OR col0 > 722 AND col0 > 678
 96 values hashing to 7cb25a46d9cd9ea63d9e5e4be0c3d0a1
 
 statement ok
-DROP VIEW view_1_tab3_906
+DROP VIEW IF EXISTS view_1_tab3_906 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_906
+DROP VIEW IF EXISTS view_2_tab3_906 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_906
+DROP VIEW IF EXISTS view_3_tab3_906 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -17886,13 +17886,13 @@ SELECT pk FROM tab4 WHERE col0 < 91 OR ((col3 = 449 OR col0 > 722 AND col0 > 678
 96 values hashing to 7cb25a46d9cd9ea63d9e5e4be0c3d0a1
 
 statement ok
-DROP VIEW view_1_tab4_906
+DROP VIEW IF EXISTS view_1_tab4_906 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_906
+DROP VIEW IF EXISTS view_2_tab4_906 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_906
+DROP VIEW IF EXISTS view_3_tab4_906 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -17997,13 +17997,13 @@ SELECT pk FROM tab0 WHERE col0 >= 79
 96 values hashing to 8cf2530cac5029692c8a0b3655d5bd6a
 
 statement ok
-DROP VIEW view_1_tab0_907
+DROP VIEW IF EXISTS view_1_tab0_907 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_907
+DROP VIEW IF EXISTS view_2_tab0_907 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_907
+DROP VIEW IF EXISTS view_3_tab0_907 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -18108,13 +18108,13 @@ SELECT pk FROM tab1 WHERE col0 >= 79
 96 values hashing to 8cf2530cac5029692c8a0b3655d5bd6a
 
 statement ok
-DROP VIEW view_1_tab1_907
+DROP VIEW IF EXISTS view_1_tab1_907 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_907
+DROP VIEW IF EXISTS view_2_tab1_907 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_907
+DROP VIEW IF EXISTS view_3_tab1_907 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -18219,13 +18219,13 @@ SELECT pk FROM tab2 WHERE col0 >= 79
 96 values hashing to 8cf2530cac5029692c8a0b3655d5bd6a
 
 statement ok
-DROP VIEW view_1_tab2_907
+DROP VIEW IF EXISTS view_1_tab2_907 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_907
+DROP VIEW IF EXISTS view_2_tab2_907 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_907
+DROP VIEW IF EXISTS view_3_tab2_907 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -18330,13 +18330,13 @@ SELECT pk FROM tab3 WHERE col0 >= 79
 96 values hashing to 8cf2530cac5029692c8a0b3655d5bd6a
 
 statement ok
-DROP VIEW view_1_tab3_907
+DROP VIEW IF EXISTS view_1_tab3_907 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_907
+DROP VIEW IF EXISTS view_2_tab3_907 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_907
+DROP VIEW IF EXISTS view_3_tab3_907 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -18441,13 +18441,13 @@ SELECT pk FROM tab4 WHERE col0 >= 79
 96 values hashing to 8cf2530cac5029692c8a0b3655d5bd6a
 
 statement ok
-DROP VIEW view_1_tab4_907
+DROP VIEW IF EXISTS view_1_tab4_907 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_907
+DROP VIEW IF EXISTS view_2_tab4_907 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_907
+DROP VIEW IF EXISTS view_3_tab4_907 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -18538,13 +18538,13 @@ SELECT pk FROM tab0 WHERE col4 >= 834.24
 14 values hashing to 12a0617e7b5113d8566c906144c40c14
 
 statement ok
-DROP VIEW view_1_tab0_908
+DROP VIEW IF EXISTS view_1_tab0_908 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_908
+DROP VIEW IF EXISTS view_2_tab0_908 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_908
+DROP VIEW IF EXISTS view_3_tab0_908 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -18635,13 +18635,13 @@ SELECT pk FROM tab1 WHERE col4 >= 834.24
 14 values hashing to 12a0617e7b5113d8566c906144c40c14
 
 statement ok
-DROP VIEW view_1_tab1_908
+DROP VIEW IF EXISTS view_1_tab1_908 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_908
+DROP VIEW IF EXISTS view_2_tab1_908 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_908
+DROP VIEW IF EXISTS view_3_tab1_908 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -18732,13 +18732,13 @@ SELECT pk FROM tab2 WHERE col4 >= 834.24
 14 values hashing to 12a0617e7b5113d8566c906144c40c14
 
 statement ok
-DROP VIEW view_1_tab2_908
+DROP VIEW IF EXISTS view_1_tab2_908 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_908
+DROP VIEW IF EXISTS view_2_tab2_908 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_908
+DROP VIEW IF EXISTS view_3_tab2_908 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -18829,13 +18829,13 @@ SELECT pk FROM tab3 WHERE col4 >= 834.24
 14 values hashing to 12a0617e7b5113d8566c906144c40c14
 
 statement ok
-DROP VIEW view_1_tab3_908
+DROP VIEW IF EXISTS view_1_tab3_908 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_908
+DROP VIEW IF EXISTS view_2_tab3_908 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_908
+DROP VIEW IF EXISTS view_3_tab3_908 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -18926,13 +18926,13 @@ SELECT pk FROM tab4 WHERE col4 >= 834.24
 14 values hashing to 12a0617e7b5113d8566c906144c40c14
 
 statement ok
-DROP VIEW view_1_tab4_908
+DROP VIEW IF EXISTS view_1_tab4_908 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_908
+DROP VIEW IF EXISTS view_2_tab4_908 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_908
+DROP VIEW IF EXISTS view_3_tab4_908 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -19023,13 +19023,13 @@ SELECT pk FROM tab0 WHERE col1 > 493.44
 52 values hashing to 8a4cf7cf036b3cfbf8498c2daf925a20
 
 statement ok
-DROP VIEW view_1_tab0_909
+DROP VIEW IF EXISTS view_1_tab0_909 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_909
+DROP VIEW IF EXISTS view_2_tab0_909 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_909
+DROP VIEW IF EXISTS view_3_tab0_909 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -19120,13 +19120,13 @@ SELECT pk FROM tab1 WHERE col1 > 493.44
 52 values hashing to 8a4cf7cf036b3cfbf8498c2daf925a20
 
 statement ok
-DROP VIEW view_1_tab1_909
+DROP VIEW IF EXISTS view_1_tab1_909 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_909
+DROP VIEW IF EXISTS view_2_tab1_909 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_909
+DROP VIEW IF EXISTS view_3_tab1_909 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -19217,13 +19217,13 @@ SELECT pk FROM tab2 WHERE col1 > 493.44
 52 values hashing to 8a4cf7cf036b3cfbf8498c2daf925a20
 
 statement ok
-DROP VIEW view_1_tab2_909
+DROP VIEW IF EXISTS view_1_tab2_909 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_909
+DROP VIEW IF EXISTS view_2_tab2_909 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_909
+DROP VIEW IF EXISTS view_3_tab2_909 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -19314,13 +19314,13 @@ SELECT pk FROM tab3 WHERE col1 > 493.44
 52 values hashing to 8a4cf7cf036b3cfbf8498c2daf925a20
 
 statement ok
-DROP VIEW view_1_tab3_909
+DROP VIEW IF EXISTS view_1_tab3_909 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_909
+DROP VIEW IF EXISTS view_2_tab3_909 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_909
+DROP VIEW IF EXISTS view_3_tab3_909 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -19411,13 +19411,13 @@ SELECT pk FROM tab4 WHERE col1 > 493.44
 52 values hashing to 8a4cf7cf036b3cfbf8498c2daf925a20
 
 statement ok
-DROP VIEW view_1_tab4_909
+DROP VIEW IF EXISTS view_1_tab4_909 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_909
+DROP VIEW IF EXISTS view_2_tab4_909 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_909
+DROP VIEW IF EXISTS view_3_tab4_909 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -19508,13 +19508,13 @@ SELECT pk FROM tab0 WHERE col4 <= 798.35
 83 values hashing to c9f113bbf3848de36ed8db60c5f7bf20
 
 statement ok
-DROP VIEW view_1_tab0_910
+DROP VIEW IF EXISTS view_1_tab0_910 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_910
+DROP VIEW IF EXISTS view_2_tab0_910 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_910
+DROP VIEW IF EXISTS view_3_tab0_910 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -19605,13 +19605,13 @@ SELECT pk FROM tab1 WHERE col4 <= 798.35
 83 values hashing to c9f113bbf3848de36ed8db60c5f7bf20
 
 statement ok
-DROP VIEW view_1_tab1_910
+DROP VIEW IF EXISTS view_1_tab1_910 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_910
+DROP VIEW IF EXISTS view_2_tab1_910 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_910
+DROP VIEW IF EXISTS view_3_tab1_910 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -19702,13 +19702,13 @@ SELECT pk FROM tab2 WHERE col4 <= 798.35
 83 values hashing to c9f113bbf3848de36ed8db60c5f7bf20
 
 statement ok
-DROP VIEW view_1_tab2_910
+DROP VIEW IF EXISTS view_1_tab2_910 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_910
+DROP VIEW IF EXISTS view_2_tab2_910 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_910
+DROP VIEW IF EXISTS view_3_tab2_910 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -19799,13 +19799,13 @@ SELECT pk FROM tab3 WHERE col4 <= 798.35
 83 values hashing to c9f113bbf3848de36ed8db60c5f7bf20
 
 statement ok
-DROP VIEW view_1_tab3_910
+DROP VIEW IF EXISTS view_1_tab3_910 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_910
+DROP VIEW IF EXISTS view_2_tab3_910 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_910
+DROP VIEW IF EXISTS view_3_tab3_910 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -19896,13 +19896,13 @@ SELECT pk FROM tab4 WHERE col4 <= 798.35
 83 values hashing to c9f113bbf3848de36ed8db60c5f7bf20
 
 statement ok
-DROP VIEW view_1_tab4_910
+DROP VIEW IF EXISTS view_1_tab4_910 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_910
+DROP VIEW IF EXISTS view_2_tab4_910 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_910
+DROP VIEW IF EXISTS view_3_tab4_910 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -19993,13 +19993,13 @@ SELECT pk FROM tab0 WHERE col1 >= 604.65
 40 values hashing to 0205e9e01e97465f9a5993a814b7db55
 
 statement ok
-DROP VIEW view_1_tab0_911
+DROP VIEW IF EXISTS view_1_tab0_911 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_911
+DROP VIEW IF EXISTS view_2_tab0_911 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_911
+DROP VIEW IF EXISTS view_3_tab0_911 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -20090,13 +20090,13 @@ SELECT pk FROM tab1 WHERE col1 >= 604.65
 40 values hashing to 0205e9e01e97465f9a5993a814b7db55
 
 statement ok
-DROP VIEW view_1_tab1_911
+DROP VIEW IF EXISTS view_1_tab1_911 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_911
+DROP VIEW IF EXISTS view_2_tab1_911 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_911
+DROP VIEW IF EXISTS view_3_tab1_911 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -20187,13 +20187,13 @@ SELECT pk FROM tab2 WHERE col1 >= 604.65
 40 values hashing to 0205e9e01e97465f9a5993a814b7db55
 
 statement ok
-DROP VIEW view_1_tab2_911
+DROP VIEW IF EXISTS view_1_tab2_911 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_911
+DROP VIEW IF EXISTS view_2_tab2_911 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_911
+DROP VIEW IF EXISTS view_3_tab2_911 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -20284,13 +20284,13 @@ SELECT pk FROM tab3 WHERE col1 >= 604.65
 40 values hashing to 0205e9e01e97465f9a5993a814b7db55
 
 statement ok
-DROP VIEW view_1_tab3_911
+DROP VIEW IF EXISTS view_1_tab3_911 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_911
+DROP VIEW IF EXISTS view_2_tab3_911 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_911
+DROP VIEW IF EXISTS view_3_tab3_911 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -20381,13 +20381,13 @@ SELECT pk FROM tab4 WHERE col1 >= 604.65
 40 values hashing to 0205e9e01e97465f9a5993a814b7db55
 
 statement ok
-DROP VIEW view_1_tab4_911
+DROP VIEW IF EXISTS view_1_tab4_911 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_911
+DROP VIEW IF EXISTS view_2_tab4_911 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_911
+DROP VIEW IF EXISTS view_3_tab4_911 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -20478,13 +20478,13 @@ SELECT pk FROM tab0 WHERE (col4 >= 519.79 AND (col3 BETWEEN 191 AND 743 AND col1
 43 values hashing to 5bad256ad163e15382dc8966cb2addc1
 
 statement ok
-DROP VIEW view_1_tab0_912
+DROP VIEW IF EXISTS view_1_tab0_912 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_912
+DROP VIEW IF EXISTS view_2_tab0_912 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_912
+DROP VIEW IF EXISTS view_3_tab0_912 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -20575,13 +20575,13 @@ SELECT pk FROM tab1 WHERE (col4 >= 519.79 AND (col3 BETWEEN 191 AND 743 AND col1
 43 values hashing to 5bad256ad163e15382dc8966cb2addc1
 
 statement ok
-DROP VIEW view_1_tab1_912
+DROP VIEW IF EXISTS view_1_tab1_912 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_912
+DROP VIEW IF EXISTS view_2_tab1_912 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_912
+DROP VIEW IF EXISTS view_3_tab1_912 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -20672,13 +20672,13 @@ SELECT pk FROM tab2 WHERE (col4 >= 519.79 AND (col3 BETWEEN 191 AND 743 AND col1
 43 values hashing to 5bad256ad163e15382dc8966cb2addc1
 
 statement ok
-DROP VIEW view_1_tab2_912
+DROP VIEW IF EXISTS view_1_tab2_912 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_912
+DROP VIEW IF EXISTS view_2_tab2_912 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_912
+DROP VIEW IF EXISTS view_3_tab2_912 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -20769,13 +20769,13 @@ SELECT pk FROM tab3 WHERE (col4 >= 519.79 AND (col3 BETWEEN 191 AND 743 AND col1
 43 values hashing to 5bad256ad163e15382dc8966cb2addc1
 
 statement ok
-DROP VIEW view_1_tab3_912
+DROP VIEW IF EXISTS view_1_tab3_912 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_912
+DROP VIEW IF EXISTS view_2_tab3_912 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_912
+DROP VIEW IF EXISTS view_3_tab3_912 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -20866,13 +20866,13 @@ SELECT pk FROM tab4 WHERE (col4 >= 519.79 AND (col3 BETWEEN 191 AND 743 AND col1
 43 values hashing to 5bad256ad163e15382dc8966cb2addc1
 
 statement ok
-DROP VIEW view_1_tab4_912
+DROP VIEW IF EXISTS view_1_tab4_912 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_912
+DROP VIEW IF EXISTS view_2_tab4_912 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_912
+DROP VIEW IF EXISTS view_3_tab4_912 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -20963,13 +20963,13 @@ SELECT pk FROM tab0 WHERE (((col3 >= 500)))
 46 values hashing to f238b5cb38f326d95a9b3df92c1be7ed
 
 statement ok
-DROP VIEW view_1_tab0_913
+DROP VIEW IF EXISTS view_1_tab0_913 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_913
+DROP VIEW IF EXISTS view_2_tab0_913 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_913
+DROP VIEW IF EXISTS view_3_tab0_913 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -21060,13 +21060,13 @@ SELECT pk FROM tab1 WHERE (((col3 >= 500)))
 46 values hashing to f238b5cb38f326d95a9b3df92c1be7ed
 
 statement ok
-DROP VIEW view_1_tab1_913
+DROP VIEW IF EXISTS view_1_tab1_913 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_913
+DROP VIEW IF EXISTS view_2_tab1_913 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_913
+DROP VIEW IF EXISTS view_3_tab1_913 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -21157,13 +21157,13 @@ SELECT pk FROM tab2 WHERE (((col3 >= 500)))
 46 values hashing to f238b5cb38f326d95a9b3df92c1be7ed
 
 statement ok
-DROP VIEW view_1_tab2_913
+DROP VIEW IF EXISTS view_1_tab2_913 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_913
+DROP VIEW IF EXISTS view_2_tab2_913 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_913
+DROP VIEW IF EXISTS view_3_tab2_913 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -21254,13 +21254,13 @@ SELECT pk FROM tab3 WHERE (((col3 >= 500)))
 46 values hashing to f238b5cb38f326d95a9b3df92c1be7ed
 
 statement ok
-DROP VIEW view_1_tab3_913
+DROP VIEW IF EXISTS view_1_tab3_913 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_913
+DROP VIEW IF EXISTS view_2_tab3_913 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_913
+DROP VIEW IF EXISTS view_3_tab3_913 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -21351,13 +21351,13 @@ SELECT pk FROM tab4 WHERE (((col3 >= 500)))
 46 values hashing to f238b5cb38f326d95a9b3df92c1be7ed
 
 statement ok
-DROP VIEW view_1_tab4_913
+DROP VIEW IF EXISTS view_1_tab4_913 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_913
+DROP VIEW IF EXISTS view_2_tab4_913 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_913
+DROP VIEW IF EXISTS view_3_tab4_913 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -21454,13 +21454,13 @@ SELECT pk FROM tab0 WHERE (col1 < 475.85) AND col4 >= 839.81 AND col0 IN (310,91
 98 values hashing to bfd77715d2e69542679a832b87a711b6
 
 statement ok
-DROP VIEW view_1_tab0_915
+DROP VIEW IF EXISTS view_1_tab0_915 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_915
+DROP VIEW IF EXISTS view_2_tab0_915 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_915
+DROP VIEW IF EXISTS view_3_tab0_915 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -21557,13 +21557,13 @@ SELECT pk FROM tab1 WHERE (col1 < 475.85) AND col4 >= 839.81 AND col0 IN (310,91
 98 values hashing to bfd77715d2e69542679a832b87a711b6
 
 statement ok
-DROP VIEW view_1_tab1_915
+DROP VIEW IF EXISTS view_1_tab1_915 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_915
+DROP VIEW IF EXISTS view_2_tab1_915 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_915
+DROP VIEW IF EXISTS view_3_tab1_915 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -21660,13 +21660,13 @@ SELECT pk FROM tab2 WHERE (col1 < 475.85) AND col4 >= 839.81 AND col0 IN (310,91
 98 values hashing to bfd77715d2e69542679a832b87a711b6
 
 statement ok
-DROP VIEW view_1_tab2_915
+DROP VIEW IF EXISTS view_1_tab2_915 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_915
+DROP VIEW IF EXISTS view_2_tab2_915 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_915
+DROP VIEW IF EXISTS view_3_tab2_915 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -21763,13 +21763,13 @@ SELECT pk FROM tab3 WHERE (col1 < 475.85) AND col4 >= 839.81 AND col0 IN (310,91
 98 values hashing to bfd77715d2e69542679a832b87a711b6
 
 statement ok
-DROP VIEW view_1_tab3_915
+DROP VIEW IF EXISTS view_1_tab3_915 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_915
+DROP VIEW IF EXISTS view_2_tab3_915 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_915
+DROP VIEW IF EXISTS view_3_tab3_915 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -21866,13 +21866,13 @@ SELECT pk FROM tab4 WHERE (col1 < 475.85) AND col4 >= 839.81 AND col0 IN (310,91
 98 values hashing to bfd77715d2e69542679a832b87a711b6
 
 statement ok
-DROP VIEW view_1_tab4_915
+DROP VIEW IF EXISTS view_1_tab4_915 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_915
+DROP VIEW IF EXISTS view_2_tab4_915 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_915
+DROP VIEW IF EXISTS view_3_tab4_915 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -21963,13 +21963,13 @@ SELECT pk FROM tab0 WHERE (col3 > 750) OR ((col1 > 794.61) AND (col0 <= 322 AND 
 24 values hashing to 1e16193d2dadec8168fd6551b8b74702
 
 statement ok
-DROP VIEW view_1_tab0_916
+DROP VIEW IF EXISTS view_1_tab0_916 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_916
+DROP VIEW IF EXISTS view_2_tab0_916 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_916
+DROP VIEW IF EXISTS view_3_tab0_916 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -22060,13 +22060,13 @@ SELECT pk FROM tab1 WHERE (col3 > 750) OR ((col1 > 794.61) AND (col0 <= 322 AND 
 24 values hashing to 1e16193d2dadec8168fd6551b8b74702
 
 statement ok
-DROP VIEW view_1_tab1_916
+DROP VIEW IF EXISTS view_1_tab1_916 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_916
+DROP VIEW IF EXISTS view_2_tab1_916 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_916
+DROP VIEW IF EXISTS view_3_tab1_916 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -22157,13 +22157,13 @@ SELECT pk FROM tab2 WHERE (col3 > 750) OR ((col1 > 794.61) AND (col0 <= 322 AND 
 24 values hashing to 1e16193d2dadec8168fd6551b8b74702
 
 statement ok
-DROP VIEW view_1_tab2_916
+DROP VIEW IF EXISTS view_1_tab2_916 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_916
+DROP VIEW IF EXISTS view_2_tab2_916 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_916
+DROP VIEW IF EXISTS view_3_tab2_916 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -22254,13 +22254,13 @@ SELECT pk FROM tab3 WHERE (col3 > 750) OR ((col1 > 794.61) AND (col0 <= 322 AND 
 24 values hashing to 1e16193d2dadec8168fd6551b8b74702
 
 statement ok
-DROP VIEW view_1_tab3_916
+DROP VIEW IF EXISTS view_1_tab3_916 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_916
+DROP VIEW IF EXISTS view_2_tab3_916 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_916
+DROP VIEW IF EXISTS view_3_tab3_916 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -22351,13 +22351,13 @@ SELECT pk FROM tab4 WHERE (col3 > 750) OR ((col1 > 794.61) AND (col0 <= 322 AND 
 24 values hashing to 1e16193d2dadec8168fd6551b8b74702
 
 statement ok
-DROP VIEW view_1_tab4_916
+DROP VIEW IF EXISTS view_1_tab4_916 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_916
+DROP VIEW IF EXISTS view_2_tab4_916 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_916
+DROP VIEW IF EXISTS view_3_tab4_916 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -22448,13 +22448,13 @@ SELECT pk FROM tab0 WHERE col3 < 292
 33 values hashing to efe65200e977c042916910e3c27ad7f5
 
 statement ok
-DROP VIEW view_1_tab0_917
+DROP VIEW IF EXISTS view_1_tab0_917 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_917
+DROP VIEW IF EXISTS view_2_tab0_917 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_917
+DROP VIEW IF EXISTS view_3_tab0_917 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -22545,13 +22545,13 @@ SELECT pk FROM tab1 WHERE col3 < 292
 33 values hashing to efe65200e977c042916910e3c27ad7f5
 
 statement ok
-DROP VIEW view_1_tab1_917
+DROP VIEW IF EXISTS view_1_tab1_917 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_917
+DROP VIEW IF EXISTS view_2_tab1_917 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_917
+DROP VIEW IF EXISTS view_3_tab1_917 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -22642,13 +22642,13 @@ SELECT pk FROM tab2 WHERE col3 < 292
 33 values hashing to efe65200e977c042916910e3c27ad7f5
 
 statement ok
-DROP VIEW view_1_tab2_917
+DROP VIEW IF EXISTS view_1_tab2_917 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_917
+DROP VIEW IF EXISTS view_2_tab2_917 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_917
+DROP VIEW IF EXISTS view_3_tab2_917 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -22739,13 +22739,13 @@ SELECT pk FROM tab3 WHERE col3 < 292
 33 values hashing to efe65200e977c042916910e3c27ad7f5
 
 statement ok
-DROP VIEW view_1_tab3_917
+DROP VIEW IF EXISTS view_1_tab3_917 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_917
+DROP VIEW IF EXISTS view_2_tab3_917 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_917
+DROP VIEW IF EXISTS view_3_tab3_917 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -22836,13 +22836,13 @@ SELECT pk FROM tab4 WHERE col3 < 292
 33 values hashing to efe65200e977c042916910e3c27ad7f5
 
 statement ok
-DROP VIEW view_1_tab4_917
+DROP VIEW IF EXISTS view_1_tab4_917 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_917
+DROP VIEW IF EXISTS view_2_tab4_917 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_917
+DROP VIEW IF EXISTS view_3_tab4_917 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -22933,13 +22933,13 @@ SELECT pk FROM tab0 WHERE (col1 > 862.52)
 14 values hashing to a05c585baac87e53efe2bf03fe59e470
 
 statement ok
-DROP VIEW view_1_tab0_919
+DROP VIEW IF EXISTS view_1_tab0_919 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_919
+DROP VIEW IF EXISTS view_2_tab0_919 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_919
+DROP VIEW IF EXISTS view_3_tab0_919 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -23030,13 +23030,13 @@ SELECT pk FROM tab1 WHERE (col1 > 862.52)
 14 values hashing to a05c585baac87e53efe2bf03fe59e470
 
 statement ok
-DROP VIEW view_1_tab1_919
+DROP VIEW IF EXISTS view_1_tab1_919 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_919
+DROP VIEW IF EXISTS view_2_tab1_919 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_919
+DROP VIEW IF EXISTS view_3_tab1_919 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -23127,13 +23127,13 @@ SELECT pk FROM tab2 WHERE (col1 > 862.52)
 14 values hashing to a05c585baac87e53efe2bf03fe59e470
 
 statement ok
-DROP VIEW view_1_tab2_919
+DROP VIEW IF EXISTS view_1_tab2_919 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_919
+DROP VIEW IF EXISTS view_2_tab2_919 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_919
+DROP VIEW IF EXISTS view_3_tab2_919 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -23224,13 +23224,13 @@ SELECT pk FROM tab3 WHERE (col1 > 862.52)
 14 values hashing to a05c585baac87e53efe2bf03fe59e470
 
 statement ok
-DROP VIEW view_1_tab3_919
+DROP VIEW IF EXISTS view_1_tab3_919 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_919
+DROP VIEW IF EXISTS view_2_tab3_919 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_919
+DROP VIEW IF EXISTS view_3_tab3_919 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -23321,13 +23321,13 @@ SELECT pk FROM tab4 WHERE (col1 > 862.52)
 14 values hashing to a05c585baac87e53efe2bf03fe59e470
 
 statement ok
-DROP VIEW view_1_tab4_919
+DROP VIEW IF EXISTS view_1_tab4_919 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_919
+DROP VIEW IF EXISTS view_2_tab4_919 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_919
+DROP VIEW IF EXISTS view_3_tab4_919 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -23418,13 +23418,13 @@ SELECT pk FROM tab0 WHERE col4 >= 913.54 OR (col1 < 0.76)
 9 values hashing to 1cdf9620609bedcf6d89df39a6288199
 
 statement ok
-DROP VIEW view_1_tab0_920
+DROP VIEW IF EXISTS view_1_tab0_920 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_920
+DROP VIEW IF EXISTS view_2_tab0_920 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_920
+DROP VIEW IF EXISTS view_3_tab0_920 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -23515,13 +23515,13 @@ SELECT pk FROM tab1 WHERE col4 >= 913.54 OR (col1 < 0.76)
 9 values hashing to 1cdf9620609bedcf6d89df39a6288199
 
 statement ok
-DROP VIEW view_1_tab1_920
+DROP VIEW IF EXISTS view_1_tab1_920 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_920
+DROP VIEW IF EXISTS view_2_tab1_920 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_920
+DROP VIEW IF EXISTS view_3_tab1_920 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -23612,13 +23612,13 @@ SELECT pk FROM tab2 WHERE col4 >= 913.54 OR (col1 < 0.76)
 9 values hashing to 1cdf9620609bedcf6d89df39a6288199
 
 statement ok
-DROP VIEW view_1_tab2_920
+DROP VIEW IF EXISTS view_1_tab2_920 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_920
+DROP VIEW IF EXISTS view_2_tab2_920 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_920
+DROP VIEW IF EXISTS view_3_tab2_920 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -23709,13 +23709,13 @@ SELECT pk FROM tab3 WHERE col4 >= 913.54 OR (col1 < 0.76)
 9 values hashing to 1cdf9620609bedcf6d89df39a6288199
 
 statement ok
-DROP VIEW view_1_tab3_920
+DROP VIEW IF EXISTS view_1_tab3_920 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_920
+DROP VIEW IF EXISTS view_2_tab3_920 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_920
+DROP VIEW IF EXISTS view_3_tab3_920 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -23806,13 +23806,13 @@ SELECT pk FROM tab4 WHERE col4 >= 913.54 OR (col1 < 0.76)
 9 values hashing to 1cdf9620609bedcf6d89df39a6288199
 
 statement ok
-DROP VIEW view_1_tab4_920
+DROP VIEW IF EXISTS view_1_tab4_920 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_920
+DROP VIEW IF EXISTS view_2_tab4_920 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_920
+DROP VIEW IF EXISTS view_3_tab4_920 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -23898,13 +23898,13 @@ SELECT pk FROM tab0 WHERE (col0 = 185)
 ----
 
 statement ok
-DROP VIEW view_1_tab0_921
+DROP VIEW IF EXISTS view_1_tab0_921 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_921
+DROP VIEW IF EXISTS view_2_tab0_921 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_921
+DROP VIEW IF EXISTS view_3_tab0_921 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -23990,13 +23990,13 @@ SELECT pk FROM tab1 WHERE (col0 = 185)
 ----
 
 statement ok
-DROP VIEW view_1_tab1_921
+DROP VIEW IF EXISTS view_1_tab1_921 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_921
+DROP VIEW IF EXISTS view_2_tab1_921 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_921
+DROP VIEW IF EXISTS view_3_tab1_921 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -24082,13 +24082,13 @@ SELECT pk FROM tab2 WHERE (col0 = 185)
 ----
 
 statement ok
-DROP VIEW view_1_tab2_921
+DROP VIEW IF EXISTS view_1_tab2_921 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_921
+DROP VIEW IF EXISTS view_2_tab2_921 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_921
+DROP VIEW IF EXISTS view_3_tab2_921 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -24174,13 +24174,13 @@ SELECT pk FROM tab3 WHERE (col0 = 185)
 ----
 
 statement ok
-DROP VIEW view_1_tab3_921
+DROP VIEW IF EXISTS view_1_tab3_921 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_921
+DROP VIEW IF EXISTS view_2_tab3_921 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_921
+DROP VIEW IF EXISTS view_3_tab3_921 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -24266,13 +24266,13 @@ SELECT pk FROM tab4 WHERE (col0 = 185)
 ----
 
 statement ok
-DROP VIEW view_1_tab4_921
+DROP VIEW IF EXISTS view_1_tab4_921 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_921
+DROP VIEW IF EXISTS view_2_tab4_921 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_921
+DROP VIEW IF EXISTS view_3_tab4_921 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -24363,13 +24363,13 @@ SELECT pk FROM tab0 WHERE col4 < 174.43
 20 values hashing to d0d6d438c0138167e2acb94d95bf6707
 
 statement ok
-DROP VIEW view_1_tab0_922
+DROP VIEW IF EXISTS view_1_tab0_922 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_922
+DROP VIEW IF EXISTS view_2_tab0_922 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_922
+DROP VIEW IF EXISTS view_3_tab0_922 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -24460,13 +24460,13 @@ SELECT pk FROM tab1 WHERE col4 < 174.43
 20 values hashing to d0d6d438c0138167e2acb94d95bf6707
 
 statement ok
-DROP VIEW view_1_tab1_922
+DROP VIEW IF EXISTS view_1_tab1_922 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_922
+DROP VIEW IF EXISTS view_2_tab1_922 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_922
+DROP VIEW IF EXISTS view_3_tab1_922 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -24557,13 +24557,13 @@ SELECT pk FROM tab2 WHERE col4 < 174.43
 20 values hashing to d0d6d438c0138167e2acb94d95bf6707
 
 statement ok
-DROP VIEW view_1_tab2_922
+DROP VIEW IF EXISTS view_1_tab2_922 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_922
+DROP VIEW IF EXISTS view_2_tab2_922 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_922
+DROP VIEW IF EXISTS view_3_tab2_922 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -24654,13 +24654,13 @@ SELECT pk FROM tab3 WHERE col4 < 174.43
 20 values hashing to d0d6d438c0138167e2acb94d95bf6707
 
 statement ok
-DROP VIEW view_1_tab3_922
+DROP VIEW IF EXISTS view_1_tab3_922 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_922
+DROP VIEW IF EXISTS view_2_tab3_922 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_922
+DROP VIEW IF EXISTS view_3_tab3_922 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -24751,13 +24751,13 @@ SELECT pk FROM tab4 WHERE col4 < 174.43
 20 values hashing to d0d6d438c0138167e2acb94d95bf6707
 
 statement ok
-DROP VIEW view_1_tab4_922
+DROP VIEW IF EXISTS view_1_tab4_922 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_922
+DROP VIEW IF EXISTS view_2_tab4_922 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_922
+DROP VIEW IF EXISTS view_3_tab4_922 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -24850,13 +24850,13 @@ SELECT pk FROM tab0 WHERE col3 >= 981
 35
 
 statement ok
-DROP VIEW view_1_tab0_923
+DROP VIEW IF EXISTS view_1_tab0_923 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_923
+DROP VIEW IF EXISTS view_2_tab0_923 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_923
+DROP VIEW IF EXISTS view_3_tab0_923 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -24949,13 +24949,13 @@ SELECT pk FROM tab1 WHERE col3 >= 981
 35
 
 statement ok
-DROP VIEW view_1_tab1_923
+DROP VIEW IF EXISTS view_1_tab1_923 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_923
+DROP VIEW IF EXISTS view_2_tab1_923 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_923
+DROP VIEW IF EXISTS view_3_tab1_923 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -25048,13 +25048,13 @@ SELECT pk FROM tab2 WHERE col3 >= 981
 35
 
 statement ok
-DROP VIEW view_1_tab2_923
+DROP VIEW IF EXISTS view_1_tab2_923 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_923
+DROP VIEW IF EXISTS view_2_tab2_923 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_923
+DROP VIEW IF EXISTS view_3_tab2_923 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -25147,13 +25147,13 @@ SELECT pk FROM tab3 WHERE col3 >= 981
 35
 
 statement ok
-DROP VIEW view_1_tab3_923
+DROP VIEW IF EXISTS view_1_tab3_923 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_923
+DROP VIEW IF EXISTS view_2_tab3_923 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_923
+DROP VIEW IF EXISTS view_3_tab3_923 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -25246,13 +25246,13 @@ SELECT pk FROM tab4 WHERE col3 >= 981
 35
 
 statement ok
-DROP VIEW view_1_tab4_923
+DROP VIEW IF EXISTS view_1_tab4_923 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_923
+DROP VIEW IF EXISTS view_2_tab4_923 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_923
+DROP VIEW IF EXISTS view_3_tab4_923 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -25343,13 +25343,13 @@ SELECT pk FROM tab0 WHERE ((col4 >= 877.43 AND col0 >= 110))
 11 values hashing to 38040a09288e2b82b9d880b53534d7ec
 
 statement ok
-DROP VIEW view_1_tab0_924
+DROP VIEW IF EXISTS view_1_tab0_924 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_924
+DROP VIEW IF EXISTS view_2_tab0_924 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_924
+DROP VIEW IF EXISTS view_3_tab0_924 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -25440,13 +25440,13 @@ SELECT pk FROM tab1 WHERE ((col4 >= 877.43 AND col0 >= 110))
 11 values hashing to 38040a09288e2b82b9d880b53534d7ec
 
 statement ok
-DROP VIEW view_1_tab1_924
+DROP VIEW IF EXISTS view_1_tab1_924 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_924
+DROP VIEW IF EXISTS view_2_tab1_924 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_924
+DROP VIEW IF EXISTS view_3_tab1_924 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -25537,13 +25537,13 @@ SELECT pk FROM tab2 WHERE ((col4 >= 877.43 AND col0 >= 110))
 11 values hashing to 38040a09288e2b82b9d880b53534d7ec
 
 statement ok
-DROP VIEW view_1_tab2_924
+DROP VIEW IF EXISTS view_1_tab2_924 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_924
+DROP VIEW IF EXISTS view_2_tab2_924 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_924
+DROP VIEW IF EXISTS view_3_tab2_924 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -25634,13 +25634,13 @@ SELECT pk FROM tab3 WHERE ((col4 >= 877.43 AND col0 >= 110))
 11 values hashing to 38040a09288e2b82b9d880b53534d7ec
 
 statement ok
-DROP VIEW view_1_tab3_924
+DROP VIEW IF EXISTS view_1_tab3_924 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_924
+DROP VIEW IF EXISTS view_2_tab3_924 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_924
+DROP VIEW IF EXISTS view_3_tab3_924 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -25731,13 +25731,13 @@ SELECT pk FROM tab4 WHERE ((col4 >= 877.43 AND col0 >= 110))
 11 values hashing to 38040a09288e2b82b9d880b53534d7ec
 
 statement ok
-DROP VIEW view_1_tab4_924
+DROP VIEW IF EXISTS view_1_tab4_924 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_924
+DROP VIEW IF EXISTS view_2_tab4_924 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_924
+DROP VIEW IF EXISTS view_3_tab4_924 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -25828,13 +25828,13 @@ SELECT pk FROM tab0 WHERE col1 < 792.60
 78 values hashing to 8e24963e49b3b2ad9531c140e8da084a
 
 statement ok
-DROP VIEW view_1_tab0_925
+DROP VIEW IF EXISTS view_1_tab0_925 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_925
+DROP VIEW IF EXISTS view_2_tab0_925 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_925
+DROP VIEW IF EXISTS view_3_tab0_925 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -25925,13 +25925,13 @@ SELECT pk FROM tab1 WHERE col1 < 792.60
 78 values hashing to 8e24963e49b3b2ad9531c140e8da084a
 
 statement ok
-DROP VIEW view_1_tab1_925
+DROP VIEW IF EXISTS view_1_tab1_925 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_925
+DROP VIEW IF EXISTS view_2_tab1_925 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_925
+DROP VIEW IF EXISTS view_3_tab1_925 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -26022,13 +26022,13 @@ SELECT pk FROM tab2 WHERE col1 < 792.60
 78 values hashing to 8e24963e49b3b2ad9531c140e8da084a
 
 statement ok
-DROP VIEW view_1_tab2_925
+DROP VIEW IF EXISTS view_1_tab2_925 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_925
+DROP VIEW IF EXISTS view_2_tab2_925 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_925
+DROP VIEW IF EXISTS view_3_tab2_925 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -26119,13 +26119,13 @@ SELECT pk FROM tab3 WHERE col1 < 792.60
 78 values hashing to 8e24963e49b3b2ad9531c140e8da084a
 
 statement ok
-DROP VIEW view_1_tab3_925
+DROP VIEW IF EXISTS view_1_tab3_925 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_925
+DROP VIEW IF EXISTS view_2_tab3_925 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_925
+DROP VIEW IF EXISTS view_3_tab3_925 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -26216,13 +26216,13 @@ SELECT pk FROM tab4 WHERE col1 < 792.60
 78 values hashing to 8e24963e49b3b2ad9531c140e8da084a
 
 statement ok
-DROP VIEW view_1_tab4_925
+DROP VIEW IF EXISTS view_1_tab4_925 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_925
+DROP VIEW IF EXISTS view_2_tab4_925 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_925
+DROP VIEW IF EXISTS view_3_tab4_925 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -26308,13 +26308,13 @@ SELECT pk FROM tab0 WHERE col3 >= 264 AND col4 IN (651.96,956.25,874.76,464.30,2
 ----
 
 statement ok
-DROP VIEW view_1_tab0_926
+DROP VIEW IF EXISTS view_1_tab0_926 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_926
+DROP VIEW IF EXISTS view_2_tab0_926 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_926
+DROP VIEW IF EXISTS view_3_tab0_926 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -26400,13 +26400,13 @@ SELECT pk FROM tab1 WHERE col3 >= 264 AND col4 IN (651.96,956.25,874.76,464.30,2
 ----
 
 statement ok
-DROP VIEW view_1_tab1_926
+DROP VIEW IF EXISTS view_1_tab1_926 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_926
+DROP VIEW IF EXISTS view_2_tab1_926 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_926
+DROP VIEW IF EXISTS view_3_tab1_926 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -26492,13 +26492,13 @@ SELECT pk FROM tab2 WHERE col3 >= 264 AND col4 IN (651.96,956.25,874.76,464.30,2
 ----
 
 statement ok
-DROP VIEW view_1_tab2_926
+DROP VIEW IF EXISTS view_1_tab2_926 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_926
+DROP VIEW IF EXISTS view_2_tab2_926 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_926
+DROP VIEW IF EXISTS view_3_tab2_926 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -26584,13 +26584,13 @@ SELECT pk FROM tab3 WHERE col3 >= 264 AND col4 IN (651.96,956.25,874.76,464.30,2
 ----
 
 statement ok
-DROP VIEW view_1_tab3_926
+DROP VIEW IF EXISTS view_1_tab3_926 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_926
+DROP VIEW IF EXISTS view_2_tab3_926 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_926
+DROP VIEW IF EXISTS view_3_tab3_926 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -26676,13 +26676,13 @@ SELECT pk FROM tab4 WHERE col3 >= 264 AND col4 IN (651.96,956.25,874.76,464.30,2
 ----
 
 statement ok
-DROP VIEW view_1_tab4_926
+DROP VIEW IF EXISTS view_1_tab4_926 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_926
+DROP VIEW IF EXISTS view_2_tab4_926 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_926
+DROP VIEW IF EXISTS view_3_tab4_926 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -26782,13 +26782,13 @@ SELECT pk FROM tab0 WHERE ((((col3 < 617 OR (col0 IS NULL OR (((col1 < 182.89 AN
 35
 
 statement ok
-DROP VIEW view_1_tab0_927
+DROP VIEW IF EXISTS view_1_tab0_927 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_927
+DROP VIEW IF EXISTS view_2_tab0_927 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_927
+DROP VIEW IF EXISTS view_3_tab0_927 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -26888,13 +26888,13 @@ SELECT pk FROM tab1 WHERE ((((col3 < 617 OR (col0 IS NULL OR (((col1 < 182.89 AN
 35
 
 statement ok
-DROP VIEW view_1_tab1_927
+DROP VIEW IF EXISTS view_1_tab1_927 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_927
+DROP VIEW IF EXISTS view_2_tab1_927 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_927
+DROP VIEW IF EXISTS view_3_tab1_927 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -26994,13 +26994,13 @@ SELECT pk FROM tab2 WHERE ((((col3 < 617 OR (col0 IS NULL OR (((col1 < 182.89 AN
 35
 
 statement ok
-DROP VIEW view_1_tab2_927
+DROP VIEW IF EXISTS view_1_tab2_927 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_927
+DROP VIEW IF EXISTS view_2_tab2_927 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_927
+DROP VIEW IF EXISTS view_3_tab2_927 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -27100,13 +27100,13 @@ SELECT pk FROM tab3 WHERE ((((col3 < 617 OR (col0 IS NULL OR (((col1 < 182.89 AN
 35
 
 statement ok
-DROP VIEW view_1_tab3_927
+DROP VIEW IF EXISTS view_1_tab3_927 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_927
+DROP VIEW IF EXISTS view_2_tab3_927 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_927
+DROP VIEW IF EXISTS view_3_tab3_927 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -27206,13 +27206,13 @@ SELECT pk FROM tab4 WHERE ((((col3 < 617 OR (col0 IS NULL OR (((col1 < 182.89 AN
 35
 
 statement ok
-DROP VIEW view_1_tab4_927
+DROP VIEW IF EXISTS view_1_tab4_927 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_927
+DROP VIEW IF EXISTS view_2_tab4_927 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_927
+DROP VIEW IF EXISTS view_3_tab4_927 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -27298,13 +27298,13 @@ SELECT pk FROM tab0 WHERE col4 IN (402.10,610.41,438.86,448.19,101.25)
 ----
 
 statement ok
-DROP VIEW view_1_tab0_928
+DROP VIEW IF EXISTS view_1_tab0_928 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_928
+DROP VIEW IF EXISTS view_2_tab0_928 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_928
+DROP VIEW IF EXISTS view_3_tab0_928 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -27390,13 +27390,13 @@ SELECT pk FROM tab1 WHERE col4 IN (402.10,610.41,438.86,448.19,101.25)
 ----
 
 statement ok
-DROP VIEW view_1_tab1_928
+DROP VIEW IF EXISTS view_1_tab1_928 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_928
+DROP VIEW IF EXISTS view_2_tab1_928 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_928
+DROP VIEW IF EXISTS view_3_tab1_928 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -27482,13 +27482,13 @@ SELECT pk FROM tab2 WHERE col4 IN (402.10,610.41,438.86,448.19,101.25)
 ----
 
 statement ok
-DROP VIEW view_1_tab2_928
+DROP VIEW IF EXISTS view_1_tab2_928 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_928
+DROP VIEW IF EXISTS view_2_tab2_928 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_928
+DROP VIEW IF EXISTS view_3_tab2_928 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -27574,13 +27574,13 @@ SELECT pk FROM tab3 WHERE col4 IN (402.10,610.41,438.86,448.19,101.25)
 ----
 
 statement ok
-DROP VIEW view_1_tab3_928
+DROP VIEW IF EXISTS view_1_tab3_928 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_928
+DROP VIEW IF EXISTS view_2_tab3_928 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_928
+DROP VIEW IF EXISTS view_3_tab3_928 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -27666,13 +27666,13 @@ SELECT pk FROM tab4 WHERE col4 IN (402.10,610.41,438.86,448.19,101.25)
 ----
 
 statement ok
-DROP VIEW view_1_tab4_928
+DROP VIEW IF EXISTS view_1_tab4_928 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_928
+DROP VIEW IF EXISTS view_2_tab4_928 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_928
+DROP VIEW IF EXISTS view_3_tab4_928 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -27763,13 +27763,13 @@ SELECT pk FROM tab0 WHERE col3 <= 654
 66 values hashing to f5c4c529422f2043b908bd808f63d70e
 
 statement ok
-DROP VIEW view_1_tab0_929
+DROP VIEW IF EXISTS view_1_tab0_929 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_929
+DROP VIEW IF EXISTS view_2_tab0_929 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_929
+DROP VIEW IF EXISTS view_3_tab0_929 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -27860,13 +27860,13 @@ SELECT pk FROM tab1 WHERE col3 <= 654
 66 values hashing to f5c4c529422f2043b908bd808f63d70e
 
 statement ok
-DROP VIEW view_1_tab1_929
+DROP VIEW IF EXISTS view_1_tab1_929 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_929
+DROP VIEW IF EXISTS view_2_tab1_929 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_929
+DROP VIEW IF EXISTS view_3_tab1_929 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -27957,13 +27957,13 @@ SELECT pk FROM tab2 WHERE col3 <= 654
 66 values hashing to f5c4c529422f2043b908bd808f63d70e
 
 statement ok
-DROP VIEW view_1_tab2_929
+DROP VIEW IF EXISTS view_1_tab2_929 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_929
+DROP VIEW IF EXISTS view_2_tab2_929 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_929
+DROP VIEW IF EXISTS view_3_tab2_929 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -28054,13 +28054,13 @@ SELECT pk FROM tab3 WHERE col3 <= 654
 66 values hashing to f5c4c529422f2043b908bd808f63d70e
 
 statement ok
-DROP VIEW view_1_tab3_929
+DROP VIEW IF EXISTS view_1_tab3_929 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_929
+DROP VIEW IF EXISTS view_2_tab3_929 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_929
+DROP VIEW IF EXISTS view_3_tab3_929 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -28151,13 +28151,13 @@ SELECT pk FROM tab4 WHERE col3 <= 654
 66 values hashing to f5c4c529422f2043b908bd808f63d70e
 
 statement ok
-DROP VIEW view_1_tab4_929
+DROP VIEW IF EXISTS view_1_tab4_929 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_929
+DROP VIEW IF EXISTS view_2_tab4_929 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_929
+DROP VIEW IF EXISTS view_3_tab4_929 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -28258,13 +28258,13 @@ SELECT pk FROM tab0 WHERE col4 < 943.67
 97 values hashing to 2201acd1b6fe4ee123eab69201bb7d38
 
 statement ok
-DROP VIEW view_1_tab0_930
+DROP VIEW IF EXISTS view_1_tab0_930 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_930
+DROP VIEW IF EXISTS view_2_tab0_930 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_930
+DROP VIEW IF EXISTS view_3_tab0_930 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -28365,13 +28365,13 @@ SELECT pk FROM tab1 WHERE col4 < 943.67
 97 values hashing to 2201acd1b6fe4ee123eab69201bb7d38
 
 statement ok
-DROP VIEW view_1_tab1_930
+DROP VIEW IF EXISTS view_1_tab1_930 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_930
+DROP VIEW IF EXISTS view_2_tab1_930 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_930
+DROP VIEW IF EXISTS view_3_tab1_930 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -28472,13 +28472,13 @@ SELECT pk FROM tab2 WHERE col4 < 943.67
 97 values hashing to 2201acd1b6fe4ee123eab69201bb7d38
 
 statement ok
-DROP VIEW view_1_tab2_930
+DROP VIEW IF EXISTS view_1_tab2_930 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_930
+DROP VIEW IF EXISTS view_2_tab2_930 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_930
+DROP VIEW IF EXISTS view_3_tab2_930 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -28579,13 +28579,13 @@ SELECT pk FROM tab3 WHERE col4 < 943.67
 97 values hashing to 2201acd1b6fe4ee123eab69201bb7d38
 
 statement ok
-DROP VIEW view_1_tab3_930
+DROP VIEW IF EXISTS view_1_tab3_930 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_930
+DROP VIEW IF EXISTS view_2_tab3_930 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_930
+DROP VIEW IF EXISTS view_3_tab3_930 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -28686,13 +28686,13 @@ SELECT pk FROM tab4 WHERE col4 < 943.67
 97 values hashing to 2201acd1b6fe4ee123eab69201bb7d38
 
 statement ok
-DROP VIEW view_1_tab4_930
+DROP VIEW IF EXISTS view_1_tab4_930 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_930
+DROP VIEW IF EXISTS view_2_tab4_930 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_930
+DROP VIEW IF EXISTS view_3_tab4_930 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -28783,13 +28783,13 @@ SELECT pk FROM tab0 WHERE (col0 < 305)
 25 values hashing to 63c70dceacb145e15e46d0d4a04a0623
 
 statement ok
-DROP VIEW view_1_tab0_931
+DROP VIEW IF EXISTS view_1_tab0_931 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_931
+DROP VIEW IF EXISTS view_2_tab0_931 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_931
+DROP VIEW IF EXISTS view_3_tab0_931 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -28880,13 +28880,13 @@ SELECT pk FROM tab1 WHERE (col0 < 305)
 25 values hashing to 63c70dceacb145e15e46d0d4a04a0623
 
 statement ok
-DROP VIEW view_1_tab1_931
+DROP VIEW IF EXISTS view_1_tab1_931 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_931
+DROP VIEW IF EXISTS view_2_tab1_931 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_931
+DROP VIEW IF EXISTS view_3_tab1_931 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -28977,13 +28977,13 @@ SELECT pk FROM tab2 WHERE (col0 < 305)
 25 values hashing to 63c70dceacb145e15e46d0d4a04a0623
 
 statement ok
-DROP VIEW view_1_tab2_931
+DROP VIEW IF EXISTS view_1_tab2_931 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_931
+DROP VIEW IF EXISTS view_2_tab2_931 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_931
+DROP VIEW IF EXISTS view_3_tab2_931 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -29074,13 +29074,13 @@ SELECT pk FROM tab3 WHERE (col0 < 305)
 25 values hashing to 63c70dceacb145e15e46d0d4a04a0623
 
 statement ok
-DROP VIEW view_1_tab3_931
+DROP VIEW IF EXISTS view_1_tab3_931 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_931
+DROP VIEW IF EXISTS view_2_tab3_931 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_931
+DROP VIEW IF EXISTS view_3_tab3_931 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -29171,13 +29171,13 @@ SELECT pk FROM tab4 WHERE (col0 < 305)
 25 values hashing to 63c70dceacb145e15e46d0d4a04a0623
 
 statement ok
-DROP VIEW view_1_tab4_931
+DROP VIEW IF EXISTS view_1_tab4_931 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_931
+DROP VIEW IF EXISTS view_2_tab4_931 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_931
+DROP VIEW IF EXISTS view_3_tab4_931 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -29268,13 +29268,13 @@ SELECT pk FROM tab0 WHERE col3 <= 903 AND col0 > 452 AND (col0 >= 146) AND col3 
 15 values hashing to 1f61f118bc2e5bb7d2415a0083f75e0a
 
 statement ok
-DROP VIEW view_1_tab0_932
+DROP VIEW IF EXISTS view_1_tab0_932 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_932
+DROP VIEW IF EXISTS view_2_tab0_932 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_932
+DROP VIEW IF EXISTS view_3_tab0_932 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -29365,13 +29365,13 @@ SELECT pk FROM tab1 WHERE col3 <= 903 AND col0 > 452 AND (col0 >= 146) AND col3 
 15 values hashing to 1f61f118bc2e5bb7d2415a0083f75e0a
 
 statement ok
-DROP VIEW view_1_tab1_932
+DROP VIEW IF EXISTS view_1_tab1_932 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_932
+DROP VIEW IF EXISTS view_2_tab1_932 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_932
+DROP VIEW IF EXISTS view_3_tab1_932 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -29462,13 +29462,13 @@ SELECT pk FROM tab2 WHERE col3 <= 903 AND col0 > 452 AND (col0 >= 146) AND col3 
 15 values hashing to 1f61f118bc2e5bb7d2415a0083f75e0a
 
 statement ok
-DROP VIEW view_1_tab2_932
+DROP VIEW IF EXISTS view_1_tab2_932 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_932
+DROP VIEW IF EXISTS view_2_tab2_932 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_932
+DROP VIEW IF EXISTS view_3_tab2_932 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -29559,13 +29559,13 @@ SELECT pk FROM tab3 WHERE col3 <= 903 AND col0 > 452 AND (col0 >= 146) AND col3 
 15 values hashing to 1f61f118bc2e5bb7d2415a0083f75e0a
 
 statement ok
-DROP VIEW view_1_tab3_932
+DROP VIEW IF EXISTS view_1_tab3_932 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_932
+DROP VIEW IF EXISTS view_2_tab3_932 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_932
+DROP VIEW IF EXISTS view_3_tab3_932 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -29656,13 +29656,13 @@ SELECT pk FROM tab4 WHERE col3 <= 903 AND col0 > 452 AND (col0 >= 146) AND col3 
 15 values hashing to 1f61f118bc2e5bb7d2415a0083f75e0a
 
 statement ok
-DROP VIEW view_1_tab4_932
+DROP VIEW IF EXISTS view_1_tab4_932 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_932
+DROP VIEW IF EXISTS view_2_tab4_932 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_932
+DROP VIEW IF EXISTS view_3_tab4_932 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -29753,13 +29753,13 @@ SELECT pk FROM tab0 WHERE col1 < 137.74
 15 values hashing to 4dc86439b3e68eff48ac15e2a3e2c88d
 
 statement ok
-DROP VIEW view_1_tab0_933
+DROP VIEW IF EXISTS view_1_tab0_933 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_933
+DROP VIEW IF EXISTS view_2_tab0_933 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_933
+DROP VIEW IF EXISTS view_3_tab0_933 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -29850,13 +29850,13 @@ SELECT pk FROM tab1 WHERE col1 < 137.74
 15 values hashing to 4dc86439b3e68eff48ac15e2a3e2c88d
 
 statement ok
-DROP VIEW view_1_tab1_933
+DROP VIEW IF EXISTS view_1_tab1_933 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_933
+DROP VIEW IF EXISTS view_2_tab1_933 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_933
+DROP VIEW IF EXISTS view_3_tab1_933 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -29947,13 +29947,13 @@ SELECT pk FROM tab2 WHERE col1 < 137.74
 15 values hashing to 4dc86439b3e68eff48ac15e2a3e2c88d
 
 statement ok
-DROP VIEW view_1_tab2_933
+DROP VIEW IF EXISTS view_1_tab2_933 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_933
+DROP VIEW IF EXISTS view_2_tab2_933 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_933
+DROP VIEW IF EXISTS view_3_tab2_933 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -30044,13 +30044,13 @@ SELECT pk FROM tab3 WHERE col1 < 137.74
 15 values hashing to 4dc86439b3e68eff48ac15e2a3e2c88d
 
 statement ok
-DROP VIEW view_1_tab3_933
+DROP VIEW IF EXISTS view_1_tab3_933 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_933
+DROP VIEW IF EXISTS view_2_tab3_933 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_933
+DROP VIEW IF EXISTS view_3_tab3_933 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -30141,13 +30141,13 @@ SELECT pk FROM tab4 WHERE col1 < 137.74
 15 values hashing to 4dc86439b3e68eff48ac15e2a3e2c88d
 
 statement ok
-DROP VIEW view_1_tab4_933
+DROP VIEW IF EXISTS view_1_tab4_933 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_933
+DROP VIEW IF EXISTS view_2_tab4_933 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_933
+DROP VIEW IF EXISTS view_3_tab4_933 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -30250,13 +30250,13 @@ SELECT pk FROM tab0 WHERE col0 > 951
 83
 
 statement ok
-DROP VIEW view_1_tab0_934
+DROP VIEW IF EXISTS view_1_tab0_934 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_934
+DROP VIEW IF EXISTS view_2_tab0_934 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_934
+DROP VIEW IF EXISTS view_3_tab0_934 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -30359,13 +30359,13 @@ SELECT pk FROM tab1 WHERE col0 > 951
 83
 
 statement ok
-DROP VIEW view_1_tab1_934
+DROP VIEW IF EXISTS view_1_tab1_934 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_934
+DROP VIEW IF EXISTS view_2_tab1_934 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_934
+DROP VIEW IF EXISTS view_3_tab1_934 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -30468,13 +30468,13 @@ SELECT pk FROM tab2 WHERE col0 > 951
 83
 
 statement ok
-DROP VIEW view_1_tab2_934
+DROP VIEW IF EXISTS view_1_tab2_934 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_934
+DROP VIEW IF EXISTS view_2_tab2_934 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_934
+DROP VIEW IF EXISTS view_3_tab2_934 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -30577,13 +30577,13 @@ SELECT pk FROM tab3 WHERE col0 > 951
 83
 
 statement ok
-DROP VIEW view_1_tab3_934
+DROP VIEW IF EXISTS view_1_tab3_934 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_934
+DROP VIEW IF EXISTS view_2_tab3_934 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_934
+DROP VIEW IF EXISTS view_3_tab3_934 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -30686,13 +30686,13 @@ SELECT pk FROM tab4 WHERE col0 > 951
 83
 
 statement ok
-DROP VIEW view_1_tab4_934
+DROP VIEW IF EXISTS view_1_tab4_934 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_934
+DROP VIEW IF EXISTS view_2_tab4_934 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_934
+DROP VIEW IF EXISTS view_3_tab4_934 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -30785,13 +30785,13 @@ SELECT pk FROM tab0 WHERE (col0 < 1)
 28
 
 statement ok
-DROP VIEW view_1_tab0_935
+DROP VIEW IF EXISTS view_1_tab0_935 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_935
+DROP VIEW IF EXISTS view_2_tab0_935 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_935
+DROP VIEW IF EXISTS view_3_tab0_935 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -30884,13 +30884,13 @@ SELECT pk FROM tab1 WHERE (col0 < 1)
 28
 
 statement ok
-DROP VIEW view_1_tab1_935
+DROP VIEW IF EXISTS view_1_tab1_935 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_935
+DROP VIEW IF EXISTS view_2_tab1_935 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_935
+DROP VIEW IF EXISTS view_3_tab1_935 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -30983,13 +30983,13 @@ SELECT pk FROM tab2 WHERE (col0 < 1)
 28
 
 statement ok
-DROP VIEW view_1_tab2_935
+DROP VIEW IF EXISTS view_1_tab2_935 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_935
+DROP VIEW IF EXISTS view_2_tab2_935 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_935
+DROP VIEW IF EXISTS view_3_tab2_935 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -31082,13 +31082,13 @@ SELECT pk FROM tab3 WHERE (col0 < 1)
 28
 
 statement ok
-DROP VIEW view_1_tab3_935
+DROP VIEW IF EXISTS view_1_tab3_935 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_935
+DROP VIEW IF EXISTS view_2_tab3_935 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_935
+DROP VIEW IF EXISTS view_3_tab3_935 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -31181,13 +31181,13 @@ SELECT pk FROM tab4 WHERE (col0 < 1)
 28
 
 statement ok
-DROP VIEW view_1_tab4_935
+DROP VIEW IF EXISTS view_1_tab4_935 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_935
+DROP VIEW IF EXISTS view_2_tab4_935 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_935
+DROP VIEW IF EXISTS view_3_tab4_935 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -31292,13 +31292,13 @@ SELECT pk FROM tab0 WHERE col4 <= 463.77 AND ((col0 >= 658 OR col4 > 223.8)) OR 
 96 values hashing to 8910953ce45c607981a097847f164140
 
 statement ok
-DROP VIEW view_1_tab0_936
+DROP VIEW IF EXISTS view_1_tab0_936 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_936
+DROP VIEW IF EXISTS view_2_tab0_936 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_936
+DROP VIEW IF EXISTS view_3_tab0_936 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -31403,13 +31403,13 @@ SELECT pk FROM tab1 WHERE col4 <= 463.77 AND ((col0 >= 658 OR col4 > 223.8)) OR 
 96 values hashing to 8910953ce45c607981a097847f164140
 
 statement ok
-DROP VIEW view_1_tab1_936
+DROP VIEW IF EXISTS view_1_tab1_936 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_936
+DROP VIEW IF EXISTS view_2_tab1_936 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_936
+DROP VIEW IF EXISTS view_3_tab1_936 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -31514,13 +31514,13 @@ SELECT pk FROM tab2 WHERE col4 <= 463.77 AND ((col0 >= 658 OR col4 > 223.8)) OR 
 96 values hashing to 8910953ce45c607981a097847f164140
 
 statement ok
-DROP VIEW view_1_tab2_936
+DROP VIEW IF EXISTS view_1_tab2_936 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_936
+DROP VIEW IF EXISTS view_2_tab2_936 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_936
+DROP VIEW IF EXISTS view_3_tab2_936 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -31625,13 +31625,13 @@ SELECT pk FROM tab3 WHERE col4 <= 463.77 AND ((col0 >= 658 OR col4 > 223.8)) OR 
 96 values hashing to 8910953ce45c607981a097847f164140
 
 statement ok
-DROP VIEW view_1_tab3_936
+DROP VIEW IF EXISTS view_1_tab3_936 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_936
+DROP VIEW IF EXISTS view_2_tab3_936 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_936
+DROP VIEW IF EXISTS view_3_tab3_936 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -31736,13 +31736,13 @@ SELECT pk FROM tab4 WHERE col4 <= 463.77 AND ((col0 >= 658 OR col4 > 223.8)) OR 
 96 values hashing to 8910953ce45c607981a097847f164140
 
 statement ok
-DROP VIEW view_1_tab4_936
+DROP VIEW IF EXISTS view_1_tab4_936 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_936
+DROP VIEW IF EXISTS view_2_tab4_936 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_936
+DROP VIEW IF EXISTS view_3_tab4_936 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -31848,13 +31848,13 @@ SELECT pk FROM tab0 WHERE col4 <= 113.35 AND col3 BETWEEN 529 AND 924
 94
 
 statement ok
-DROP VIEW view_1_tab0_938
+DROP VIEW IF EXISTS view_1_tab0_938 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_938
+DROP VIEW IF EXISTS view_2_tab0_938 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_938
+DROP VIEW IF EXISTS view_3_tab0_938 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -31960,13 +31960,13 @@ SELECT pk FROM tab1 WHERE col4 <= 113.35 AND col3 BETWEEN 529 AND 924
 94
 
 statement ok
-DROP VIEW view_1_tab1_938
+DROP VIEW IF EXISTS view_1_tab1_938 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_938
+DROP VIEW IF EXISTS view_2_tab1_938 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_938
+DROP VIEW IF EXISTS view_3_tab1_938 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -32072,13 +32072,13 @@ SELECT pk FROM tab2 WHERE col4 <= 113.35 AND col3 BETWEEN 529 AND 924
 94
 
 statement ok
-DROP VIEW view_1_tab2_938
+DROP VIEW IF EXISTS view_1_tab2_938 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_938
+DROP VIEW IF EXISTS view_2_tab2_938 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_938
+DROP VIEW IF EXISTS view_3_tab2_938 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -32184,13 +32184,13 @@ SELECT pk FROM tab3 WHERE col4 <= 113.35 AND col3 BETWEEN 529 AND 924
 94
 
 statement ok
-DROP VIEW view_1_tab3_938
+DROP VIEW IF EXISTS view_1_tab3_938 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_938
+DROP VIEW IF EXISTS view_2_tab3_938 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_938
+DROP VIEW IF EXISTS view_3_tab3_938 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -32296,13 +32296,13 @@ SELECT pk FROM tab4 WHERE col4 <= 113.35 AND col3 BETWEEN 529 AND 924
 94
 
 statement ok
-DROP VIEW view_1_tab4_938
+DROP VIEW IF EXISTS view_1_tab4_938 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_938
+DROP VIEW IF EXISTS view_2_tab4_938 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_938
+DROP VIEW IF EXISTS view_3_tab4_938 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -32393,13 +32393,13 @@ SELECT pk FROM tab0 WHERE col0 >= 128
 93 values hashing to 33ec9b63f2c5ceb09e06900cf1cd9f3d
 
 statement ok
-DROP VIEW view_1_tab0_939
+DROP VIEW IF EXISTS view_1_tab0_939 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_939
+DROP VIEW IF EXISTS view_2_tab0_939 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_939
+DROP VIEW IF EXISTS view_3_tab0_939 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -32490,13 +32490,13 @@ SELECT pk FROM tab1 WHERE col0 >= 128
 93 values hashing to 33ec9b63f2c5ceb09e06900cf1cd9f3d
 
 statement ok
-DROP VIEW view_1_tab1_939
+DROP VIEW IF EXISTS view_1_tab1_939 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_939
+DROP VIEW IF EXISTS view_2_tab1_939 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_939
+DROP VIEW IF EXISTS view_3_tab1_939 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -32587,13 +32587,13 @@ SELECT pk FROM tab2 WHERE col0 >= 128
 93 values hashing to 33ec9b63f2c5ceb09e06900cf1cd9f3d
 
 statement ok
-DROP VIEW view_1_tab2_939
+DROP VIEW IF EXISTS view_1_tab2_939 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_939
+DROP VIEW IF EXISTS view_2_tab2_939 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_939
+DROP VIEW IF EXISTS view_3_tab2_939 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -32684,13 +32684,13 @@ SELECT pk FROM tab3 WHERE col0 >= 128
 93 values hashing to 33ec9b63f2c5ceb09e06900cf1cd9f3d
 
 statement ok
-DROP VIEW view_1_tab3_939
+DROP VIEW IF EXISTS view_1_tab3_939 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_939
+DROP VIEW IF EXISTS view_2_tab3_939 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_939
+DROP VIEW IF EXISTS view_3_tab3_939 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -32781,13 +32781,13 @@ SELECT pk FROM tab4 WHERE col0 >= 128
 93 values hashing to 33ec9b63f2c5ceb09e06900cf1cd9f3d
 
 statement ok
-DROP VIEW view_1_tab4_939
+DROP VIEW IF EXISTS view_1_tab4_939 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_939
+DROP VIEW IF EXISTS view_2_tab4_939 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_939
+DROP VIEW IF EXISTS view_3_tab4_939 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -32894,13 +32894,13 @@ SELECT pk FROM tab0 WHERE (col4 > 944.11)
 9
 
 statement ok
-DROP VIEW view_1_tab0_940
+DROP VIEW IF EXISTS view_1_tab0_940 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_940
+DROP VIEW IF EXISTS view_2_tab0_940 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_940
+DROP VIEW IF EXISTS view_3_tab0_940 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -33007,13 +33007,13 @@ SELECT pk FROM tab1 WHERE (col4 > 944.11)
 9
 
 statement ok
-DROP VIEW view_1_tab1_940
+DROP VIEW IF EXISTS view_1_tab1_940 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_940
+DROP VIEW IF EXISTS view_2_tab1_940 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_940
+DROP VIEW IF EXISTS view_3_tab1_940 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -33120,13 +33120,13 @@ SELECT pk FROM tab2 WHERE (col4 > 944.11)
 9
 
 statement ok
-DROP VIEW view_1_tab2_940
+DROP VIEW IF EXISTS view_1_tab2_940 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_940
+DROP VIEW IF EXISTS view_2_tab2_940 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_940
+DROP VIEW IF EXISTS view_3_tab2_940 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -33233,13 +33233,13 @@ SELECT pk FROM tab3 WHERE (col4 > 944.11)
 9
 
 statement ok
-DROP VIEW view_1_tab3_940
+DROP VIEW IF EXISTS view_1_tab3_940 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_940
+DROP VIEW IF EXISTS view_2_tab3_940 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_940
+DROP VIEW IF EXISTS view_3_tab3_940 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -33346,13 +33346,13 @@ SELECT pk FROM tab4 WHERE (col4 > 944.11)
 9
 
 statement ok
-DROP VIEW view_1_tab4_940
+DROP VIEW IF EXISTS view_1_tab4_940 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_940
+DROP VIEW IF EXISTS view_2_tab4_940 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_940
+DROP VIEW IF EXISTS view_3_tab4_940 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -33443,13 +33443,13 @@ SELECT pk FROM tab0 WHERE (((col0 > 339 AND (col1 >= 430.28) AND (col0 >= 404 AN
 33 values hashing to effc16a2539fcb5f6bd7c3da24824fd6
 
 statement ok
-DROP VIEW view_1_tab0_941
+DROP VIEW IF EXISTS view_1_tab0_941 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_941
+DROP VIEW IF EXISTS view_2_tab0_941 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_941
+DROP VIEW IF EXISTS view_3_tab0_941 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -33540,13 +33540,13 @@ SELECT pk FROM tab1 WHERE (((col0 > 339 AND (col1 >= 430.28) AND (col0 >= 404 AN
 33 values hashing to effc16a2539fcb5f6bd7c3da24824fd6
 
 statement ok
-DROP VIEW view_1_tab1_941
+DROP VIEW IF EXISTS view_1_tab1_941 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_941
+DROP VIEW IF EXISTS view_2_tab1_941 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_941
+DROP VIEW IF EXISTS view_3_tab1_941 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -33637,13 +33637,13 @@ SELECT pk FROM tab2 WHERE (((col0 > 339 AND (col1 >= 430.28) AND (col0 >= 404 AN
 33 values hashing to effc16a2539fcb5f6bd7c3da24824fd6
 
 statement ok
-DROP VIEW view_1_tab2_941
+DROP VIEW IF EXISTS view_1_tab2_941 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_941
+DROP VIEW IF EXISTS view_2_tab2_941 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_941
+DROP VIEW IF EXISTS view_3_tab2_941 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -33734,13 +33734,13 @@ SELECT pk FROM tab3 WHERE (((col0 > 339 AND (col1 >= 430.28) AND (col0 >= 404 AN
 33 values hashing to effc16a2539fcb5f6bd7c3da24824fd6
 
 statement ok
-DROP VIEW view_1_tab3_941
+DROP VIEW IF EXISTS view_1_tab3_941 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_941
+DROP VIEW IF EXISTS view_2_tab3_941 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_941
+DROP VIEW IF EXISTS view_3_tab3_941 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -33831,13 +33831,13 @@ SELECT pk FROM tab4 WHERE (((col0 > 339 AND (col1 >= 430.28) AND (col0 >= 404 AN
 33 values hashing to effc16a2539fcb5f6bd7c3da24824fd6
 
 statement ok
-DROP VIEW view_1_tab4_941
+DROP VIEW IF EXISTS view_1_tab4_941 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_941
+DROP VIEW IF EXISTS view_2_tab4_941 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_941
+DROP VIEW IF EXISTS view_3_tab4_941 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -33934,13 +33934,13 @@ SELECT pk FROM tab0 WHERE col0 > 16
 98 values hashing to 4752549f84d9be34b5b5ead669a24341
 
 statement ok
-DROP VIEW view_1_tab0_942
+DROP VIEW IF EXISTS view_1_tab0_942 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_942
+DROP VIEW IF EXISTS view_2_tab0_942 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_942
+DROP VIEW IF EXISTS view_3_tab0_942 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -34037,13 +34037,13 @@ SELECT pk FROM tab1 WHERE col0 > 16
 98 values hashing to 4752549f84d9be34b5b5ead669a24341
 
 statement ok
-DROP VIEW view_1_tab1_942
+DROP VIEW IF EXISTS view_1_tab1_942 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_942
+DROP VIEW IF EXISTS view_2_tab1_942 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_942
+DROP VIEW IF EXISTS view_3_tab1_942 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -34140,13 +34140,13 @@ SELECT pk FROM tab2 WHERE col0 > 16
 98 values hashing to 4752549f84d9be34b5b5ead669a24341
 
 statement ok
-DROP VIEW view_1_tab2_942
+DROP VIEW IF EXISTS view_1_tab2_942 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_942
+DROP VIEW IF EXISTS view_2_tab2_942 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_942
+DROP VIEW IF EXISTS view_3_tab2_942 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -34243,13 +34243,13 @@ SELECT pk FROM tab3 WHERE col0 > 16
 98 values hashing to 4752549f84d9be34b5b5ead669a24341
 
 statement ok
-DROP VIEW view_1_tab3_942
+DROP VIEW IF EXISTS view_1_tab3_942 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_942
+DROP VIEW IF EXISTS view_2_tab3_942 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_942
+DROP VIEW IF EXISTS view_3_tab3_942 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -34346,13 +34346,13 @@ SELECT pk FROM tab4 WHERE col0 > 16
 98 values hashing to 4752549f84d9be34b5b5ead669a24341
 
 statement ok
-DROP VIEW view_1_tab4_942
+DROP VIEW IF EXISTS view_1_tab4_942 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_942
+DROP VIEW IF EXISTS view_2_tab4_942 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_942
+DROP VIEW IF EXISTS view_3_tab4_942 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -34443,13 +34443,13 @@ SELECT pk FROM tab0 WHERE ((col3 >= 982)) OR (col0 > 522)
 56 values hashing to 6ee9e1c0c83906ea83467f7d502ca09b
 
 statement ok
-DROP VIEW view_1_tab0_943
+DROP VIEW IF EXISTS view_1_tab0_943 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_943
+DROP VIEW IF EXISTS view_2_tab0_943 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_943
+DROP VIEW IF EXISTS view_3_tab0_943 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -34540,13 +34540,13 @@ SELECT pk FROM tab1 WHERE ((col3 >= 982)) OR (col0 > 522)
 56 values hashing to 6ee9e1c0c83906ea83467f7d502ca09b
 
 statement ok
-DROP VIEW view_1_tab1_943
+DROP VIEW IF EXISTS view_1_tab1_943 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_943
+DROP VIEW IF EXISTS view_2_tab1_943 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_943
+DROP VIEW IF EXISTS view_3_tab1_943 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -34637,13 +34637,13 @@ SELECT pk FROM tab2 WHERE ((col3 >= 982)) OR (col0 > 522)
 56 values hashing to 6ee9e1c0c83906ea83467f7d502ca09b
 
 statement ok
-DROP VIEW view_1_tab2_943
+DROP VIEW IF EXISTS view_1_tab2_943 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_943
+DROP VIEW IF EXISTS view_2_tab2_943 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_943
+DROP VIEW IF EXISTS view_3_tab2_943 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -34734,13 +34734,13 @@ SELECT pk FROM tab3 WHERE ((col3 >= 982)) OR (col0 > 522)
 56 values hashing to 6ee9e1c0c83906ea83467f7d502ca09b
 
 statement ok
-DROP VIEW view_1_tab3_943
+DROP VIEW IF EXISTS view_1_tab3_943 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_943
+DROP VIEW IF EXISTS view_2_tab3_943 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_943
+DROP VIEW IF EXISTS view_3_tab3_943 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -34831,13 +34831,13 @@ SELECT pk FROM tab4 WHERE ((col3 >= 982)) OR (col0 > 522)
 56 values hashing to 6ee9e1c0c83906ea83467f7d502ca09b
 
 statement ok
-DROP VIEW view_1_tab4_943
+DROP VIEW IF EXISTS view_1_tab4_943 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_943
+DROP VIEW IF EXISTS view_2_tab4_943 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_943
+DROP VIEW IF EXISTS view_3_tab4_943 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -34923,13 +34923,13 @@ SELECT pk FROM tab0 WHERE col1 < 588.74 AND ((((col4 = 278.77 AND col4 < 697.53)
 ----
 
 statement ok
-DROP VIEW view_1_tab0_944
+DROP VIEW IF EXISTS view_1_tab0_944 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_944
+DROP VIEW IF EXISTS view_2_tab0_944 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_944
+DROP VIEW IF EXISTS view_3_tab0_944 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -35015,13 +35015,13 @@ SELECT pk FROM tab1 WHERE col1 < 588.74 AND ((((col4 = 278.77 AND col4 < 697.53)
 ----
 
 statement ok
-DROP VIEW view_1_tab1_944
+DROP VIEW IF EXISTS view_1_tab1_944 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_944
+DROP VIEW IF EXISTS view_2_tab1_944 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_944
+DROP VIEW IF EXISTS view_3_tab1_944 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -35107,13 +35107,13 @@ SELECT pk FROM tab2 WHERE col1 < 588.74 AND ((((col4 = 278.77 AND col4 < 697.53)
 ----
 
 statement ok
-DROP VIEW view_1_tab2_944
+DROP VIEW IF EXISTS view_1_tab2_944 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_944
+DROP VIEW IF EXISTS view_2_tab2_944 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_944
+DROP VIEW IF EXISTS view_3_tab2_944 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -35199,13 +35199,13 @@ SELECT pk FROM tab3 WHERE col1 < 588.74 AND ((((col4 = 278.77 AND col4 < 697.53)
 ----
 
 statement ok
-DROP VIEW view_1_tab3_944
+DROP VIEW IF EXISTS view_1_tab3_944 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_944
+DROP VIEW IF EXISTS view_2_tab3_944 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_944
+DROP VIEW IF EXISTS view_3_tab3_944 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -35291,13 +35291,13 @@ SELECT pk FROM tab4 WHERE col1 < 588.74 AND ((((col4 = 278.77 AND col4 < 697.53)
 ----
 
 statement ok
-DROP VIEW view_1_tab4_944
+DROP VIEW IF EXISTS view_1_tab4_944 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_944
+DROP VIEW IF EXISTS view_2_tab4_944 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_944
+DROP VIEW IF EXISTS view_3_tab4_944 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -35383,13 +35383,13 @@ SELECT pk FROM tab0 WHERE col3 = 565
 ----
 
 statement ok
-DROP VIEW view_1_tab0_945
+DROP VIEW IF EXISTS view_1_tab0_945 CASCADE
 
 statement ok
-DROP VIEW view_2_tab0_945
+DROP VIEW IF EXISTS view_2_tab0_945 CASCADE
 
 statement ok
-DROP VIEW view_3_tab0_945
+DROP VIEW IF EXISTS view_3_tab0_945 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -35475,13 +35475,13 @@ SELECT pk FROM tab1 WHERE col3 = 565
 ----
 
 statement ok
-DROP VIEW view_1_tab1_945
+DROP VIEW IF EXISTS view_1_tab1_945 CASCADE
 
 statement ok
-DROP VIEW view_2_tab1_945
+DROP VIEW IF EXISTS view_2_tab1_945 CASCADE
 
 statement ok
-DROP VIEW view_3_tab1_945
+DROP VIEW IF EXISTS view_3_tab1_945 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -35567,13 +35567,13 @@ SELECT pk FROM tab2 WHERE col3 = 565
 ----
 
 statement ok
-DROP VIEW view_1_tab2_945
+DROP VIEW IF EXISTS view_1_tab2_945 CASCADE
 
 statement ok
-DROP VIEW view_2_tab2_945
+DROP VIEW IF EXISTS view_2_tab2_945 CASCADE
 
 statement ok
-DROP VIEW view_3_tab2_945
+DROP VIEW IF EXISTS view_3_tab2_945 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -35659,13 +35659,13 @@ SELECT pk FROM tab3 WHERE col3 = 565
 ----
 
 statement ok
-DROP VIEW view_1_tab3_945
+DROP VIEW IF EXISTS view_1_tab3_945 CASCADE
 
 statement ok
-DROP VIEW view_2_tab3_945
+DROP VIEW IF EXISTS view_2_tab3_945 CASCADE
 
 statement ok
-DROP VIEW view_3_tab3_945
+DROP VIEW IF EXISTS view_3_tab3_945 CASCADE
 
 onlyif mssql # IF EXISTS support: 
 statement ok
@@ -35751,11 +35751,11 @@ SELECT pk FROM tab4 WHERE col3 = 565
 ----
 
 statement ok
-DROP VIEW view_1_tab4_945
+DROP VIEW IF EXISTS view_1_tab4_945 CASCADE
 
 statement ok
-DROP VIEW view_2_tab4_945
+DROP VIEW IF EXISTS view_2_tab4_945 CASCADE
 
 statement ok
-DROP VIEW view_3_tab4_945
+DROP VIEW IF EXISTS view_3_tab4_945 CASCADE
 
